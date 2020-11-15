@@ -1,24 +1,36 @@
+// Shared Components
+import Sidebar from "./shared_components/sidebar";
 
-import './App.css';
+// Sections
+import Landing from "./sections/landing";
+import About from "./sections/about";
+import Schedule from "./sections/schedule";
+import Speakers from "./sections/speakers";
+import Sponsors from "./sections/sponsors";
+import Faq from "./sections/faq";
+import Footer from "./sections/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Sidebar />
+
+      <main>
+        <Landing />
+
+        <About />
+
+        <Schedule />
+
+        <Speakers />
+
+        <Sponsors />
+
+        <Faq />
+
+        <Footer />
+      </main>
+    </>
   );
 }
 
