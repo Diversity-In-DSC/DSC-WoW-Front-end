@@ -1,43 +1,91 @@
-# Getting Started with Create React App
+<img src="./public/images/dsc-wow-white.gif" height="240px">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Developer Student Clubs WOW Website
 
-## Available Scripts
+This repository contains the official website for the DSC WOW event, organized by a mega-collaboration between more than 121+ DSC's.
 
-In the project directory, you can run:
+### Project Info
 
-### `npm start`
+This project uses [React.Js](https://reactjs.org) and the contents are bundled using webpack.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The contents in this project follow the following structure.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+├───public
+│   └───images
+│
+└───src
+    ├──sections
+    │   ├───about
+    │   ├───faq
+    │   ├───footer
+    │   ├───landing
+    │   ├───schedule
+    │   ├───speakers
+    │   └───sponsors
+    │
+    │
+    └───shared_components
+        ├───button
+        └───sidebar
+```
 
-### `npm test`
+Each individual section and component, follows this structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+section
+  ├──components
+  └──styles
+```
 
-### `npm run build`
+#### Constants
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project uses 'Roboto' as it's primary font, with weights of 300, 400, 500 and 700. All the fonts have been pre-imported.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Moreover, here are a few constants which are used throughout the project, and have been added to the root of css, use them accordingly.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+font-size: 16px;
+--bg-primary: #ffffff;
+--bg-secondary: #f5f5f5;
+--text-primary: #000000;
+--text-secondary: #202124;
+--btn-primary: #0005df;
+--btn-secondary: #ffffff;
+--focused-state: #c2c3f7;
+--transition-speed: 250ms;
+--sidebar-width: 5rem;
+```
 
-### `npm run eject`
+## Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##### Clone the repository
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/ishandeveloper/DSC-WOW.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+##### Move to the desired folder
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+cd \DSC-WOW
+```
+
+##### To install the dependencies, simply write
+
+```bash
+yarn install
+```
+
+##### To run the app, simply write
+
+```bash
+yarn start
+```
+
+### Contributors
+
+Names will be added shortly.
 
 ## Learn More
 
@@ -45,26 +93,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ishandeveloper)
