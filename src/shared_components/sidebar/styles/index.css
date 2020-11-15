@@ -7,6 +7,7 @@
   transition: var(--transition-speed);
   list-style: none;
   box-shadow: -10px 0px 17.5px #252525;
+  z-index: 999;
 }
 
 .sidebar__nav {
@@ -102,7 +103,7 @@
   .sidebar__item:nth-child(2) {
     display: none;
   }
-  
+
   /* .sidebar__item:nth-child(6) {
     display: none;
   } */
