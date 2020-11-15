@@ -1,11 +1,11 @@
 .landing__wrapper {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .landing__content {
   display: flex;
   flex-direction: column;
   padding: 0rem 5rem;
-  padding-bottom: 10rem;
+  /* padding-bottom: 10rem; */
   justify-content: center;
 }
 .landing__logo {
@@ -102,9 +102,6 @@
     max-width: 90%;
   }
 
-  .landing__lottie {
-    display: none;
-  }
   .landing__content {
     max-width: 100%;
     flex: 0 0 100%;
@@ -127,9 +124,13 @@
 }
 
 @media screen and (max-width: 720px) {
-  .landing__content {
-    padding: 0rem 1.5rem;
+  .landing__wrapper {
+    flex-direction: column-reverse !important;
   }
+  .landing__lottie{
+    height: auto;
+  }
+  
   .landing__logo {
     width: 25rem;
     max-width: 90%;
@@ -137,6 +138,8 @@
   .landing__content {
     justify-content: flex-start;
     padding-bottom: 0;
-    padding-top: 10rem;
+    padding: 0rem 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 7.5rem;
   }
 }
