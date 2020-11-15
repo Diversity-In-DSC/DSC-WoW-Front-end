@@ -1,5 +1,8 @@
 import React from "react";
 import "./styles/index.css";
+import Lottie from 'lottie-react-web'
+import animation from './lottie.json'
+
 
 const Landing = () => {
   return (
@@ -31,7 +34,13 @@ const Landing = () => {
           <button className="primary__btn">Register</button>
         </div>
       </div>
-      <div className="col-md-6 landing__lottie"></div>
+      <div className="col-md-6 landing__lottie">
+      <Lottie
+    options={{
+      animationData: animation
+    }}
+  />
+      </div>
     </section>
   );
 };
