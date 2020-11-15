@@ -1,7 +1,7 @@
 import React from "react";
 
 const Speakers = () => {
-  return <section>Speakers</section>;
+  return <section></section>;
 };
 
 export default Speakers;
