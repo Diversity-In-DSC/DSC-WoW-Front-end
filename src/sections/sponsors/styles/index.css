@@ -1,0 +1,41 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.new-sponsors {
+	text-align: center;
+}
+
+.our-sponsors {
+	text-align: center;
+	width: 100%;
+}
+
+.sponsors-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sponsor-tier {
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+}
+
+.sponsor-img-wrapper {
+	align-self: center;
+	margin-bottom: 2rem;
+}
+
+.sponsor-img {
+	padding: 0.5rem 1.5rem;
+	margin: auto;
+	width: 100%;
+	max-width: 320px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
