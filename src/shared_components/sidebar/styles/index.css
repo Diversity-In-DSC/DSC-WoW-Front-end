@@ -1,0 +1,104 @@
+.sidebar__wrapper {
+  background: var(--bg-secondary);
+  width: var(--sidebar-width);
+  height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  transition: var(--transition-speed);
+  list-style: none;
+  box-shadow: -10px 0px 17.5px #252525;
+}
+
+.sidebar__nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  outline: none;
+  position: relative;
+}
+
+.sidebar__item {
+  width: 100%;
+  text-decoration: none;
+}
+.sidebar__item__link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  filter: grayscale(100%) opacity(0.7);
+  transition: var(--transition-speed);
+}
+.sidebar__item__link:hover {
+  filter: grayscale(0%) opacity(1);
+  background: var(--focused-state);
+  color: var(--btn-primary);
+  text-decoration: none;
+}
+.sidebar__item__link i {
+  font-size: 1.5rem;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+
+.sidebar__text {
+  display: none;
+}
+.sidebar__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: var(--transition-speed);
+}
+
+.sidebar__logo .sidebar__item__link {
+  filter: grayscale(0%) opacity(1) !important;
+}
+
+.sidebar__logo__img {
+  animation: fa-spin 3s linear infinite;
+  width: 70%;
+  margin: auto;
+  transition: var(--transition-speed);
+}
+
+.sidebar__logo:hover .sidebar__logo__img {
+  animation: fa-spin 4s linear infinite;
+  transition: var(--transition-speed);
+}
+
+/* Mobile Screens */
+@media only screen and (max-width: 600px) {
+  .sidebar__wrapper {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    flex-direction: row;
+    width: 100vw;
+    box-shadow: 0px 10px 20px #252525;
+  }
+  .sidebar__logo {
+    display: none;
+  }
+  .sidebar__nav {
+    flex-direction: row;
+  }
+  .sidebar__item:nth-child(2) {
+    display: none;
+  }
+  .sidebar__item:nth-child(6) {
+    display: none;
+  }
+  .sidebar__item__link i {
+    margin: auto;
+  }
+}
