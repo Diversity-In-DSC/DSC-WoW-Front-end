@@ -18,7 +18,7 @@ const Landing = () => {
         </span>
 
         <div className="landing__description">
-          A weeklong event consisting of a <span className="landing__highlight"> 4 days of workshops/sessions </span>
+          DSC <span style={{fontWeight:"500"}}>Week Of Wonders</span>, aka DSC WOW. A weeklong event consisting of a <span className="landing__highlight"> 4 days of workshops/sessions </span>
           and a 48 hours <span className="landing__highlight"> hackathon </span>
           named <span className="landing__highlight" style={{fontWeight:"600", color:"#db4437"}}>CodeOffDuty</span>. But to us developers and tech enthusiasts, this is
           much more than some workshops and hackathon, it is a place where
