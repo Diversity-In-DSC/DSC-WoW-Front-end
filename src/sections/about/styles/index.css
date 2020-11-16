@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .about__wrapper {
     min-height: 90vh;
   }
@@ -162,3 +163,19 @@
     }
   }
   
+=======
+.about-content{
+    color: #000 !important;
+}
+.about-text{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-highlight{
+    color: var(--btn-primary);
+}
+.text-danger{
+    color: red !important;
+}
+>>>>>>> a2c122742c07c7c618a4c26e7c78bc0acfb823ff
