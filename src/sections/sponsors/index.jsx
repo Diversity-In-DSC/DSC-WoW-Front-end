@@ -17,7 +17,6 @@ import portis from './assets/portis.png'
 
 const Sponsors = () => {
   return (
-<<<<<<< HEAD
     <section>
 
     <hr/>
@@ -32,8 +31,8 @@ const Sponsors = () => {
         <div>
           <h4 className="">Want to be a sponsor of DSC WOW?</h4>
           <br/>
-          <h4>Drop us an email at :</h4>
-          <h4>sponsorship@codeoffduty.com</h4>
+          <h5>Drop us an email at :</h5>
+          <h5>sponsorship@codeoffduty.com</h5>
 
           <br/>
           <a href="mailto:sponsorship@codeoffduty.com">
@@ -214,12 +213,6 @@ const Sponsors = () => {
 
       <hr/>
   
-=======
-    <section className="row about__wrapper">
-      <div className="col-md-6 about__content">
-        <span className="about__date">SPONSORS</span>
-      </div>
->>>>>>> d8748e9988886ebbfe541ae79183a3404c5ffc7f
     </section>
   );
 };
