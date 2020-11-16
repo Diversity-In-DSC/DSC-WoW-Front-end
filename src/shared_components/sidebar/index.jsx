@@ -6,7 +6,7 @@ const Sidebar = () => {
     <nav className="sidebar__wrapper">
       <ul className="sidebar__nav">
         <li className="sidebar__item  sidebar__logo">
-          <a href="#" className="sidebar__item__link">
+          <a href="#landing__wrapper" className="sidebar__item__link">
             <img
               src="favicon.png"
               alt="DSC WOW"
@@ -18,35 +18,35 @@ const Sidebar = () => {
 
         <li className="sidebar__item">
           <a href="#" className="sidebar__item__link">
-            <i class="fas fa-puzzle-piece"></i>
+            <i className="fas fa-puzzle-piece"></i>
           </a>
           <span className="sidebar__text">About</span>
         </li>
 
         <li className="sidebar__item">
           <a href="#" className="sidebar__item__link">
-            <i class="fas fa-calendar"></i>
+            <i className="fas fa-calendar"></i>
           </a>
           <span className="sidebar__text">Schedule</span>
         </li>
 
         <li className="sidebar__item">
           <a href="#" className="sidebar__item__link">
-            <i class="fas fa-headset"></i>
+            <i className="fas fa-headset"></i>
           </a>
           <span className="sidebar__text">Speakers</span>
         </li>
 
         <li className="sidebar__item">
           <a href="#" className="sidebar__item__link">
-            <i class="far fa-handshake"></i>
+            <i className="far fa-handshake"></i>
           </a>
           <span className="sidebar__text">Sponsors</span>
         </li>
 
         <li className="sidebar__item">
           <a href="#" className="sidebar__item__link">
-            <i class="fas fa-question"></i>
+            <i className="fas fa-question"></i>
           </a>
           <span className="sidebar__text">FAQ</span>
         </li>

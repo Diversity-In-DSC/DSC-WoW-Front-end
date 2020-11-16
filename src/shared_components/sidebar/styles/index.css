@@ -7,6 +7,7 @@
   transition: var(--transition-speed);
   list-style: none;
   box-shadow: -10px 0px 17.5px #252525;
+  z-index: 999;
 }
 
 .sidebar__nav {
@@ -81,10 +82,17 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 5rem;
+    height: 3.5rem;
     flex-direction: row;
     width: 100vw;
     box-shadow: 0px 10px 20px #252525;
+  }
+  .sidebar__item__link {
+    height: 3.5rem;
+  }
+  .sidebar__item__link i {
+    font-size: 1.25rem;
+    margin: auto;
   }
   .sidebar__logo {
     display: none;
@@ -95,9 +103,10 @@
   .sidebar__item:nth-child(2) {
     display: none;
   }
-  .sidebar__item:nth-child(6) {
+
+  /* .sidebar__item:nth-child(6) {
     display: none;
-  }
+  } */
   .sidebar__item__link i {
     margin: auto;
   }
