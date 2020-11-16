@@ -17,6 +17,7 @@ import portis from './assets/portis.png'
 
 const Sponsors = () => {
   return (
+<<<<<<< HEAD
     <section>
 
     <hr/>
@@ -213,6 +214,12 @@ const Sponsors = () => {
 
       <hr/>
   
+=======
+    <section className="row about__wrapper">
+      <div className="col-md-6 about__content">
+        <span className="about__date">SPONSORS</span>
+      </div>
+>>>>>>> d8748e9988886ebbfe541ae79183a3404c5ffc7f
     </section>
   );
 };

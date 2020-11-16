@@ -24,7 +24,7 @@ const Sidebar = () => {
         </li>
 
         <li className="sidebar__item">
-          <a href="#" className="sidebar__item__link">
+          <a href="#schedule" className="sidebar__item__link">
             <i className="fas fa-calendar"></i>
           </a>
           <span className="sidebar__text">Schedule</span>
