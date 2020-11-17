@@ -1,5 +1,6 @@
 // Shared Components
 import Sidebar from "./shared_components/sidebar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Sections
 import Landing from "./sections/landing";
