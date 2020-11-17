@@ -20,102 +20,11 @@ const Sponsors = () => {
     <section>
 
     <hr/>
-    <div className="new-sponsors">
-
-      <h1>Our Sponsors</h1>
-      <br/>
- 
-      <div className="card">
-
-      <div className="brochure">
-        <div>
-          <h4 className="">Want to be a sponsor of DSC WOW?</h4>
-          <br/>
-          <h5>Drop us an email at :</h5>
-          <h5>sponsorship@codeoffduty.com</h5>
-
-          <br/>
-          <a href="mailto:sponsorship@codeoffduty.com">
-          <button className="email-btn">Get in touch</button>
-        </a>
-        </div>
-      </div>
-     
-    </div>
-    <br/>
-
-    </div>
-    <hr/>
-
-
-
-
       <div className="our-sponsors">
-        <div className="diamond-sponsors ">
-
-          <div className="sponsor-tier-title">
-            <h1>Diamond Sponsors</h1>
-          </div>
-          
+    
+        <div className="sponsor-tier">
+          <h1 className="pb-4">Our Sponsors</h1>
           <LazyLoad>
-          <div className="row sponsors">
-            <div className="col-xs-6 col-md-5 sponsor-img-wrapper">
-              <img src={devfolio} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-            <div className="col-xs-6 col-md-5 sponsor-img-wrapper">
-              
-              <img src={digital} className="sponsor-img"  alt="devfolio"></img>
-              
-            </div>
-
-            <div className="col-xs-6 col-md-5 sponsor-img-wrapper">
-              <img src={echo} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-            <div className="col-xs-6 col-md-5 sponsor-img-wrapper">
-              <img src={give} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-          </div>
-          </LazyLoad>
-          
-        </div>
-
-        <hr/>
-
-        <div className="platinum-sponsors sponsor-tier">
-          <h1 className="pb-4">Platinum Sponsors</h1>
-          <div className="row sponsors">
-            
-            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <img src={give} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <img src={jetbrains} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <img src={jovian} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <img src={matic} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <img src={portis} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-
-          </div>
-        </div>
-
-        <hr/>
-
-        <div className="gold-sponsors sponsor-tier">
-          <h1 className="pb-4">Gold Sponsors</h1>
           <div className="row sponsors">
             <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
               <img src={devfolio} className="sponsor-img"  alt="devfolio"></img>
@@ -163,35 +72,16 @@ const Sponsors = () => {
 
 
           </div>
+          </LazyLoad>
         </div>
 
 
         <hr/>
-        
-        <div className="platform-partners sponsor-tier">
-          <h1 className="pb-4">Platform Partners</h1>
-
-          <div className="row sponsors">
-            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <img src={devfolio} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <img src={digital} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <img src={echo} className="sponsor-img"  alt="devfolio"></img>
-            </div>
-
-          </div>
-        </div>
-
-        <hr/>
+    
         
         <div className="community-partners sponsor-tier">
           <h1  className="pb-4">Community Partners</h1>
-
+          <LazyLoad>
           <div className="row sponsors">
             <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
               <img src={gdgpune} className="sponsor-img"  alt="devfolio"></img>
@@ -206,10 +96,28 @@ const Sponsors = () => {
             </div>
 
           </div>
+          </LazyLoad>
         </div>
 
       </div>
       <br/>
+
+      <div className="card">
+        <div className="brochure">
+          <div>
+            <h4 className="">Want to be a sponsor of DSC WOW?</h4>
+            <br/>
+            <h5>Drop us an email at :</h5>
+            <h5>sponsorship@codeoffduty.com</h5>
+
+            <br/>
+            <a href="mailto:sponsorship@codeoffduty.com">
+            <button className="email-btn">Get in touch</button>
+          </a>
+          </div>
+        </div>
+      </div>
+    <br/>
 
       <hr/>
   
