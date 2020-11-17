@@ -3,6 +3,7 @@ import about from './about.jpg';
 import "./styles/index.css";
 // import Lottie from "lottie-react-web";
 // import animation from "./about.json";
+import Typed from 'react-typed';
 
 const About = () => {
   return(
@@ -22,8 +23,23 @@ const About = () => {
           <h3>
             Developer Students Club
           </h3>
-          <div className="font-italic mb-5">
+          <div className="font-italic mb-2">
             Helping students bridge the gap between <u>theory</u> and <u>practice</u>.
+          </div>
+          <div className="typed-content mt-3 mb-5">
+          <Typed
+              className = 'h3'
+              style={{wordSpacing: '13px', letterSpacing: '5px'}}
+              strings={[
+                '<red>1 Country<red/>', 
+                '<green>120+ DSCs</green>', 
+                '<blue>7 Days</blue>'
+              ]}
+              typeSpeed={60}
+              backSpeed={70}
+              cursorChar={['_']}
+              loop 
+          />
           </div>
           <div className="about-text">
             <p className="mb-3">

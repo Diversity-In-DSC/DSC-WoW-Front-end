@@ -10,5 +10,14 @@
     color: var(--btn-primary);
 }
 .text-danger{
-    color: red !important;
+    color: #e93020 !important;
+}
+red{
+    color: #ED4436;
+}
+green{
+    color: #199F58;
+}
+blue{
+    color: #4784F1;
 }
