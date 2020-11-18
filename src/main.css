@@ -6,10 +6,10 @@
   --bg-secondary: #f5f5f5;
   --text-primary: #000000;
   --text-secondary: #202124;
-  --text-tertiary: #4C4C4C;
+  --text-tertiary: #4c4c4c;
   --btn-primary: #0005df;
   --btn-secondary: #ffffff;
-  --hover-state:#e9eaff;
+  --hover-state: #e9eaff;
   --focused-state: #c2c3f7;
   --transition-speed: 250ms;
   --sidebar-width: 5rem;
@@ -43,7 +43,8 @@ body::-webkit-scrollbar-thumb {
 
 main {
   margin-left: 5rem;
-  padding: 1rem;
+  overflow-x: hidden;
+  padding-bottom: 5rem;
 }
 
 /* Mobile Screens */
