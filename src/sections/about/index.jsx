@@ -21,12 +21,12 @@ const About = () => {
         </div>
         <div className="col-md-5 col-sm-8 about-content mt-5">
           <h3>
-            Developer Students Club
+            Developer Student Clubs
           </h3>
           <div className="font-italic mb-2">
             Helping students bridge the gap between <u>theory</u> and <u>practice</u>.
           </div>
-          <div className="typed-content mt-3 mb-5">
+          <div className="typed-content mt-3 mb-3">
           <Typed
               className = 'h3'
               style={{wordSpacing: '13px', letterSpacing: '5px'}}
