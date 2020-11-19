@@ -132,8 +132,6 @@ const Sponsors = () => {
       </div>
     <br/>
 
-      <hr/>
-  
     </section>
   );
 };
