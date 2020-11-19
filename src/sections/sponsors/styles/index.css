@@ -26,6 +26,7 @@
 .sponsor-img-wrapper {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	width: 400px;
 	height: 200px;
 	margin: 10px 10px;
@@ -42,9 +43,9 @@
 }
 
 .sponsor-img {
-	padding: 0.5rem 0rem;
+	padding: 0.5rem 1rem;
 	margin: auto;
-	width: 90%;
+	width: 80%;
 	max-width: 320px;
 	height: auto;
 	text-decoration: none;
