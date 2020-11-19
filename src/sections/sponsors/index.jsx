@@ -44,22 +44,22 @@ const Sponsors = () => {
                 <img src={echo} className="sponsor-img"  alt="echo-ar"></img>
                 </a>
               </div>
-              
+          
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
                 <a target="_blank" rel="noopener noreferrer"  href="https://fold.money/">
                 <img src={fold} className="sponsor-img"  alt="fold"></img>
+                </a>
+              </div>
+                  
+              <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
+                <a target="_blank" rel="noopener noreferrer"  href="https://www.jetbrains.com/">
+                <img src={jetbrains} className="sponsor-img jetbrains center"  alt="jetbrains"></img>
                 </a>
               </div>
               
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
                 <a  target="_blank" rel="noopener noreferrer" href="https://givemycertificate.com/">
                 <img src={give} className="sponsor-img"  alt="give-my-certificate"></img>
-                </a>
-              </div>
-              
-              <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a target="_blank" rel="noopener noreferrer"  href="https://www.jetbrains.com/">
-                <img src={jetbrains} className="sponsor-img jetbrains center"  alt="jetbrains"></img>
                 </a>
               </div>
               
