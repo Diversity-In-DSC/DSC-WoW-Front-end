@@ -28,71 +28,58 @@ const Sponsors = () => {
           <div className="row sponsors">
             
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://devfolio.co">
+                <a  target="_blank" rel="noopener noreferrer" href="https://devfolio.co">
                 <img src={devfolio} className="sponsor-img"  alt="devfolio"></img>
                 </a>
               </div>
               
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://www.digitalocean.com/">
+                <a  target="_blank" rel="noopener noreferrer" href="https://www.digitalocean.com/">
                 <img src={digital} className="sponsor-img"  alt="digital-ocean"></img>
                 </a>
               </div>
               
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://www.echoar.xyz/">
+                <a target="_blank" rel="noopener noreferrer"  href="https://www.echoar.xyz/">
                 <img src={echo} className="sponsor-img"  alt="echo-ar"></img>
                 </a>
               </div>
               
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://www.facebook.com/groups/DevCIndore/">
-                <img src={fb} className="sponsor-img"  alt="fb-developer-circles-indore"></img>
-                </a>
-              </div>
-              
-              <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://fold.money/">
+                <a target="_blank" rel="noopener noreferrer"  href="https://fold.money/">
                 <img src={fold} className="sponsor-img"  alt="fold"></img>
                 </a>
               </div>
               
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://givemycertificate.com/">
+                <a  target="_blank" rel="noopener noreferrer" href="https://givemycertificate.com/">
                 <img src={give} className="sponsor-img"  alt="give-my-certificate"></img>
                 </a>
               </div>
               
-
-
-              
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://www.jetbrains.com/">
+                <a target="_blank" rel="noopener noreferrer"  href="https://www.jetbrains.com/">
                 <img src={jetbrains} className="sponsor-img jetbrains center"  alt="jetbrains"></img>
                 </a>
               </div>
               
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://www.jovian.ai/">
+                <a  target="_blank" rel="noopener noreferrer" href="https://www.jovian.ai/">
                 <img src={jovian} className="sponsor-img"  alt="jovian"></img>
                 </a>
               </div>
               
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://matic.network/">
+                <a  target="_blank" rel="noopener noreferrer" href="https://matic.network/">
                 <img src={matic} className="sponsor-img"  alt="matic"></img>
                 </a>
               </div>
               
               <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-                <a href="https://www.portis.io/">
+                <a target="_blank" rel="noopener noreferrer"  href="https://www.portis.io/">
                 <img src={portis} className="sponsor-img"  alt="portis"></img>
                 </a>
               </div>
-              
-              
-              
-              
               
 
           </div>
@@ -107,8 +94,15 @@ const Sponsors = () => {
           <h1  className="pb-4">Community Partners</h1>
           <LazyLoad>
           <div className="row sponsors">
+
             <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
-              <a href="https://gdg.community.dev/gdg-pune/">
+                <a  target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/groups/DevCIndore/">
+                <img src={fb} className="sponsor-img"  alt="fb-developer-circles-indore"></img>
+                </a>
+            </div>
+
+            <div className="col-sm-6 col-md-3 sponsor-img-wrapper">
+              <a target="_blank" rel="noopener noreferrer"  href="https://gdg.community.dev/gdg-pune/">
               <img src={gdgpune} className="sponsor-img"  alt="gdg-pune"></img>
               </a>
             </div>
@@ -125,12 +119,12 @@ const Sponsors = () => {
             <h4 className="">Want to be a sponsor of DSC WOW?</h4>
             <br/>
             <h5>Drop us an email at :</h5>
-            <a href="mailto:wowdsc@gmail.com" className="mail">
+            <a target="_blank" rel="noopener noreferrer"  href="mailto:wowdsc@gmail.com" className="mail">
              <h5>wowdsc@gmail.com</h5>
             </a>
 
             <br/>
-            <a href="mailto:wowdsc@gmail.com">
+            <a  target="_blank" rel="noopener noreferrer" href="mailto:wowdsc@gmail.com">
             <button className="email-btn">Get in touch</button>
           </a>
           </div>

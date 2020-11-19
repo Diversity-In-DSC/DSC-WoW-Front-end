@@ -42,10 +42,10 @@
 }
 
 .sponsor-img {
-	padding: 0.5rem .5rem;
+	padding: 0.5rem 0rem;
 	margin: auto;
 	width: 90%;
-	max-width: 300px;
+	max-width: 320px;
 	height: auto;
 	text-decoration: none;
 }
@@ -54,10 +54,12 @@ h1 {
 	font-size: 2.5rem;
 }
 
-.jetbrais {
+/*
+.jetbrains {
 	max-height: 200px;
 	width: auto;
 }
+*/
 
 .card {
 	position: relative;
