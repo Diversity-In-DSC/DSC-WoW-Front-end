@@ -21,7 +21,7 @@ const Faq = () => {
         content: "Students, Developers, Communities & Institutions are all encouraged to attend this event!"
       },
       {
-        title: "Is DSC WOW 2020 free to attend?",
+        title: "Is DSC WOW free to attend?",
         content: "Yes, it's FREE! Just put on your learning caps and hop on!"
       },
   
