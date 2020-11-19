@@ -25,11 +25,14 @@
 
 .sponsor-img-wrapper {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 400px;
 	height: 200px;
 	margin: 10px 10px;
 	margin-bottom: 0.5rem;
 	border-radius: 5px;
+	overflow: hidden;
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.185), 0 1px 5px 0 rgba(0,0,0,0.05);
 	transition: 0.2s;
 }
@@ -40,16 +43,24 @@
 }
 
 .sponsor-img {
-	padding: 0.5rem 1.5rem;
+	padding: 0.5rem 1rem;
 	margin: auto;
 	width: 80%;
-	max-width: 300px;
+	max-width: 320px;
 	height: auto;
+	text-decoration: none;
 }
 
 h1 {
 	font-size: 2.5rem;
 }
+
+/*
+.jetbrains {
+	max-height: 200px;
+	width: auto;
+}
+*/
 
 .card {
 	position: relative;
@@ -62,6 +73,7 @@ h1 {
 	background: #f5f5f5;
 	color: var(--text-secondary);
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.185), 0 1px 5px 0 rgba(0,0,0,0.05);
+	transition: 0.4s;
 }
 .card .brochure {
 	width: 100%;
@@ -69,7 +81,9 @@ h1 {
 	margin: 20px 0px;
 }
 
-
+.mail {
+	color: var(--btn-primary);
+}
 
 .email-btn {
 		margin: 0 1rem;
@@ -87,11 +101,11 @@ h1 {
 .email-btn:hover {
 	background-color: var(--btn-primary);
 	color: white;
-	transform: scale(1.1);
 }
 
 .card:hover {
 	box-shadow: 0 1px 5px 0 rgba(20, 19, 19, 0.212), 0 1px 5px 0 rgba(20, 19, 19, 0.212);
+	transform: scale(1.02);
 }
 
 
