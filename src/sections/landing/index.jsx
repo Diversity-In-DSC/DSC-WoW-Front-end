@@ -1,9 +1,24 @@
-import React from "react";
+import React, { Component } from "react";
 import "./styles/index.css";
 import Lottie from "lottie-react-web";
 import animation from "./lottie.json";
+import Popup from "./Popup";
 
-const Landing = () => {
+
+class Landing extends Component{
+  
+  constructor(props){
+    super(props);
+    this.state = { showPopup: false };
+    }
+  
+    togglePopup() {
+     this.setState({
+       showPopup: !this.state.showPopup
+     });
+}
+  
+  render(){
   return (
     <section className="row landing__wrapper">
       <div className="col-md-6 landing__content">
@@ -41,7 +56,13 @@ const Landing = () => {
         <div className="landing__actions">
           <button className="secondary__btn">Get Your WOW Badge</button>
 
-          <button className="primary__btn">Register</button>
+          <button className="primary__btn" onClick={this.togglePopup.bind(this)} >Register</button>
+          {this.state.showPopup ?
+         <Popup
+          closePopup={this.togglePopup.bind(this)}
+         />
+         : null
+       }
         </div>
       </div>
       <div className="col-md-6 landing__lottie">
@@ -52,7 +73,7 @@ const Landing = () => {
         />
       </div>
     </section>
-  );
+  )};
 };
 
 export default Landing;
