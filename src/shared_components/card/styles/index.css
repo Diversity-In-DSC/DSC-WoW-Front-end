@@ -1,19 +1,155 @@
-.card__content,.card__content__inner{
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
+.card__content,
+.card__content__inner {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
-.card__content{
-    perspective: 25px;
+.card__content {
+  perspective: 25px;
 }
-.card__content__inner{
-    text-align: center;
-    height: 300px;
-    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s;
-    -webkit-transition: transform 0.5s;
-    -moz-transition: transform 0.5s;
-    -o-transition: transform 0.5s;
+.card__content__inner {
+  position: relative;
+  height: 300px;
+  /* box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 1px 5px 0 rgba(20, 19, 19, 0.212),
+    0 1px 5px 0 rgba(20, 19, 19, 0.212);
+
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+
+.hackathon__lottie {
+  /* width: 100%; */
+}
+
+.card__graphics {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 300px;
+  width: auto;
+  opacity: 1;
+  z-index: 0;
+}
+
+.card__content__inner {
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+  height: 300px;
+}
+
+.card__content__inner .row .col-md-6 * {
+  text-align: left;
+}
+
+.hackathon__title {
+  color: var(--text-primary);
+  font-size: 4.5rem;
+  font-family: "Blockletter";
+  text-align: left;
+}
+
+.hackathon__duration {
+  font-family: "Blockletter";
+  font-size: 2rem;
+}
+
+.buttonfx {
+  /* left: ; */
+  /* position: fixed; */
+  /* bottom: 30px; */
+  margin-top: 1rem;
+  color: white; /* button text color */
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid #eee;
+  letter-spacing: 0.0625em;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  font: bold 16px "Bitter", sans-serif; /* use google font */
+  line-height: 2;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none; /* remove underline if using A instead of BUTTON tag */
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.buttonfx:before,
+.buttonfx:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #00ff46; /* onhover background color */
+  z-index: -1;
+  transform: translate3D(
+    0,
+    -100%,
+    0
+  ); /* move elements above button so they don't appear initially */
+  transition: all 0.5s;
+}
+
+.buttonfx:before {
+  background: black; /* button default background color */
+  z-index: -2;
+  transform: translate3D(0, 0, 0);
+}
+
+.buttonfx:hover {
+  color: black;
+  outline: none;
+}
+
+.buttonfx:hover:after {
+  transform: translate3D(0, 0, 0);
+  transition: all 0.5s;
+}
+
+.slideleft:after {
+  top: 0;
+  z-index: -1;
+  transform: translate3D(-101%, 0, 0);
+}
+
+.slideleft:hover:after {
+  transform: translate3D(0, 0, 0);
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 720px) {
+  .card__graphics {
+    /* display: none; */
+    z-index: -2;
+    opacity: 0.1;
+  }
+  .hackathon__title {
+    font-size: 3.5rem;
+  }
+  .hackathon__duration {
+    font-size: 2.5rem;
+  }
+  .buttonfx {
+    padding: 8px 14px;
+  }
+  .card__content {
+    height: 264px;
+    margin: 0 1rem;
+  }
+  .card__content__inner {
+    height: 264px;
+  }
 }

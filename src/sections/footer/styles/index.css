@@ -1,0 +1,28 @@
+.footer__wrapper {
+  background: var(--bg-secondary);
+  padding: 2.5rem 0;
+}
+
+.dsc__wow__footer {
+  font-size: 1.5em;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  display: flex;
+  align-items: flex-end;
+}
+ .copyright {
+  font-size: .9rem;
+  font-weight: 400;
+}
+.wow__footer__links {
+  display: flex;
+}
+.wow__footer__link {
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .footer__wrapper {
+    padding: 2.5rem 2rem;
+  }
+}

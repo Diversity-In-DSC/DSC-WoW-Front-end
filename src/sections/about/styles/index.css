@@ -150,8 +150,8 @@
     font-size: 3rem;
     font-weight: 600;
   }
-  .week-of-wonders-header{
-    font-size:1.5rem;
+  .week-of-wonders-header {
+    font-size: 1.5rem;
   }
 }
 
@@ -211,4 +211,36 @@ green {
 }
 blue {
   color: #4784f1;
+}
+.secondary__btn {
+  padding: 0.5rem 1rem;
+  border: 1.5px solid var(--btn-primary);
+  border-radius: 5px;
+  text-align: center;
+  background: var(--bg-secondary);
+  outline: none;
+  color: var(--btn-primary);
+  transition: var(--transition-speed);
+}
+
+.secondary__btn:disabled{
+  cursor: not-allowed;
+}
+.secondary__btn:hover {
+  background: var(--hover-state);
+}
+.secondary__btn:focus {
+  background: var(--focused-state);
+}
+
+@media screen and (max-width: 960px) {
+  .secondary__btn {
+    padding: 0.7rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .secondary__btn {
+    padding: 0.5rem 1rem;
+  }
 }
