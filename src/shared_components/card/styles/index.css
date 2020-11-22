@@ -111,6 +111,7 @@
 
 .buttonfx:hover {
   color: black;
+  outline: none;
 }
 
 .buttonfx:hover:after {
@@ -127,4 +128,28 @@
 .slideleft:hover:after {
   transform: translate3D(0, 0, 0);
   transition: all 0.5s;
+}
+
+@media screen and (max-width: 720px) {
+  .card__graphics {
+    /* display: none; */
+    z-index: -2;
+    opacity: 0.1;
+  }
+  .hackathon__title {
+    font-size: 3.5rem;
+  }
+  .hackathon__duration {
+    font-size: 2.5rem;
+  }
+  .buttonfx {
+    padding: 8px 14px;
+  }
+  .card__content {
+    height: 264px;
+    margin: 0 1rem;
+  }
+  .card__content__inner {
+    height: 264px;
+  }
 }
