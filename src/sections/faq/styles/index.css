@@ -1,9 +1,9 @@
 .faq-section {
-	background-color: var(--bg-secondary);
+	/* background-color: var(--bg-secondary); */
 	padding: 5vh 0vh;
 }
 
 .faq-container {
 	margin: 0rem 1rem;
-	background-color: var(--bg-secondary);
+	/* background-color: var(--bg-secondary); */
 }
