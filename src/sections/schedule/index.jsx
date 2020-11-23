@@ -6,7 +6,7 @@ const Schedule = () => {
   return (
     <section className="schedule__wrapper" id="#schedule">
       <div className="row justify-content-center">
-        <Card title="1" />
+        <Card />
       </div>
       {/* <div className="row mb-5">
         <Card title="2" size="col-md-6" color="green" />
