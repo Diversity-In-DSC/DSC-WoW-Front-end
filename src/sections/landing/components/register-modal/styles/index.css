@@ -1,0 +1,121 @@
+.ReactModal__Content {
+  position: relative;
+  padding: 1.5rem 2rem !important;
+  min-width: 500px;
+  max-width: 720px;
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-right: -50% !important;
+  transform: translate(-50%, -50%) !important;
+  overflow: hidden !important;
+  /* overflow-y: hidden; */
+}
+
+.register__close {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 32px;
+  height: 32px;
+  color: white;
+  border-radius: 50%;
+  background: #db4437;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.registered__close{
+  margin-bottom: 1rem !important;
+}
+.register__close:hover {
+  filter: brightness(1.25);
+}
+.register__close:focus {
+  outline: none;
+  filter: brightness(0.8);
+}
+.ReactModal__Overlay {
+  z-index: 6;
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+.register__content h2 {
+  font-size: 1.75rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+.register__content h4 {
+  font-size: 1.25rem;
+  color: var(--text-tertiary);
+}
+
+.register__btn {
+  margin: 0 0.75rem;
+  padding: 0.5rem 1.5rem;
+  border: 1.5px solid #db4437;
+  background: #db4437;
+  color: white;
+  border-radius: 5px;
+  transition: var(--transition-speed);
+  outline: none;
+  text-align: center;
+  filter: brightness(1);
+}
+.register__btn:hover {
+  filter: brightness(1.25);
+}
+.register__btn:focus {
+  filter: brightness(0.75);
+}
+.register__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.08;
+}
+.registered__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register__lottie {
+  width: 50%;
+  height: 50%;
+}
+.registered__content * {
+  text-align: center;
+}
+
+.registered__content p {
+  color: var(--text-tertiary);
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .ReactModal__Content {
+    min-width: 90vw;
+    padding: 2rem 1rem !important;
+    left: 48% !important;
+    margin: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .register__content {
+    margin-left: -1rem;
+  }
+  .register__content h4 {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: var(--text-tertiary);
+  }
+  .register__content h2 {
+    margin-left: 1rem;
+  }
+}

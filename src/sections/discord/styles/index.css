@@ -1,0 +1,72 @@
+#discord-button .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+#discord-button .icon svg {
+  fill: #7289da;
+}
+#discord-button a {
+  color: #7289da;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  text-decoration: none;
+  transition: all ease-in 0.3s;
+  font-size: 1.25rem;
+}
+
+#discord-button a:hover {
+  background-color: #6a7fc9;
+  color: white;
+}
+
+#discord-button a:hover .icon svg {
+  fill: white;
+}
+
+.discord__card__inner {
+  background: #869be1;
+  transition: all ease-in-out 0.3s;
+  height: auto !important;
+}
+
+.discord__content {
+  padding: 2rem 1.5rem;
+  color: white;
+  z-index: 4;
+}
+.discord__content h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.discord__content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.discord__card__inner:hover {
+  background: #6a7fc9;
+}
+
+.discord__vid {
+  height: 100%;
+}
+
+@media screen and (max-width:960px){
+    .discord__vid{
+        opacity: 0.1;
+    }
+    .discord__content{
+        max-width: 75% !important;
+        flex: 0 0 75% !important;
+    }
+}
+@media screen and (max-width:720px){
+    .discord__content{
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+}
