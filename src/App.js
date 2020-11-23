@@ -9,6 +9,7 @@ import Schedule from "./sections/schedule";
 import Speakers from "./sections/speakers";
 import Sponsors from "./sections/sponsors";
 import Faq from "./sections/faq";
+import Discord from "./sections/discord";
 import Footer from "./sections/footer";
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
         <Speakers />
 
         <Sponsors />
+
+        <Discord />
 
         <Faq />
 

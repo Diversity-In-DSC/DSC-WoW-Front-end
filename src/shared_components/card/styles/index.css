@@ -22,9 +22,6 @@
   -o-transition: transform 0.5s;
 }
 
-.hackathon__lottie {
-  /* width: 100%; */
-}
 
 .card__graphics {
   position: absolute;

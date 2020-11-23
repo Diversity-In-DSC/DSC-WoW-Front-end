@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
@@ -14,6 +15,7 @@
     "react-faq-component": "^1.2.1",
     "react-lazyload": "^3.1.0",
     "react-lottie": "^1.2.3",
+    "react-modal": "^3.12.1",
     "react-scripts": "4.0.0",
     "react-tilt": "^0.1.4",
     "react-typed": "^1.2.0",
