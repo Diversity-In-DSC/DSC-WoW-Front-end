@@ -35,7 +35,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="faq-section">
+    <section className="faq-section" id="faq-section">
       <div className="row section__header justify-content-center">
         <div className="col-md-10">Frequently Asked Questions</div>
       </div>
@@ -48,7 +48,7 @@ const Faq = () => {
                 // bgColor: "#f5f5f5",
                 titleTextColor: "black",
                 rowTitleColor: "black",
-                rowTitleTextSize: "1.25rem",
+                rowTitleTextSize: "1.1rem",
                 rowContentColor: "#5b5e5b",
                 rowContentTextSize: "1rem",
                 rowContentPaddingTop: "10px",
