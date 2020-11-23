@@ -10,6 +10,7 @@ import Speakers from "./sections/speakers";
 import Sponsors from "./sections/sponsors";
 import Faq from "./sections/faq";
 import Discord from "./sections/discord";
+import SponsorCard from "./sections/sponsorcard";
 import Footer from "./sections/footer";
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         <Speakers />
 
         <Sponsors />
+
+        <SponsorCard />
 
         <Discord />
 
