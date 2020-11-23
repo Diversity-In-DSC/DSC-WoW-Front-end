@@ -13,6 +13,7 @@ import jetbrains from "./assets/jetbrains.png";
 import jovian from "./assets/jovian.png";
 import matic from "./assets/matic.png";
 import portis from "./assets/portis.png";
+import flutterchandigarh from './assets/flutter-chandigarh.jpg'
 
 const Sponsors = () => {
   return (
@@ -176,6 +177,20 @@ const Sponsors = () => {
                     ></img>
                   </a>
                 </div>
+
+                <div className="col-sm-6 col-md-4 sponsor-img-wrapper">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://flutter-chandigarh.web.app/"
+                  >
+                    <img
+                      src={flutterchandigarh}
+                      className="sponsor-img"
+                      alt="Flutter Chandigarh"
+                    ></img>
+                  </a>
+                </div>
               </div>
             </LazyLoad>
           </div>
@@ -184,7 +199,7 @@ const Sponsors = () => {
       </div>
       <br />
 
-      <div className="card">
+      {/* <div className="card">
         <div className="brochure">
           <div>
             <h4 className="">Want to be a sponsor of DSC WOW?</h4>
@@ -209,7 +224,7 @@ const Sponsors = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <br />
     </section>
