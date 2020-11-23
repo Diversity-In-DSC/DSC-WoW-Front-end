@@ -55,6 +55,14 @@ const Speakers = () => {
               description="Developer Advocate/Staff Engineer at Samsung & Co-chair of the W3C Immersive Group"
               image="images/speakers/ada.jpg"
             />
+
+            <SpeakerCard
+              title="Program Manager"
+              linkedin="https://www.linkedin.com/in/sidagarwal04"
+              name="Siddhant Aggarwal"
+              description="ACM's Distinguished Speaker | Developer Relations @ Google India | Tech Communities + Edu + Design + Startups"
+              image="images/speakers/sid.jpg"
+            />
           </div>
         </div>
       </div>
