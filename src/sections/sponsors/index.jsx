@@ -11,7 +11,7 @@ import give from "./assets/give.png";
 import jetbrains from "./assets/jetbrains.png";
 import jovian from "./assets/jovian.png";
 import matic from "./assets/matic.png";
-//import flutterchandigarh from "./assets/flutter-chandigarh.png";
+import flutterchandigarh from "./assets/flutter-chandigarh.png";
 import scaler from './assets/scaler.png';
 import airmeet from './assets/airmeet.png';
 import mysore from './assets/mysore.png';
@@ -25,7 +25,7 @@ import sketch from './assets/sketch.png';
 import voiceflow from './assets/voiceflow.png';
 import karnatakapolice from './assets/karnatakapolice.png';
 import zulip from './assets/zulip.png';
-import goforce from './assets/goforce.png';
+//import goforce from './assets/goforce.png';
 import progate from './assets/progate.png';
 import gdgmysuru from './assets/gdgmysuru.png';
 import tfmysuru from './assets/tfmysuru.png';
@@ -148,7 +148,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={echo}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="echoar"
                         style={{padding: "0"}}
                       ></img>
                     </a>
@@ -163,7 +163,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={tezos}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="tezos"
                       ></img>
                     </a>
                   </div>
@@ -177,7 +177,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={matic}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="matic"
                       ></img>
                     </a>
                   </div>
@@ -191,7 +191,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={shapeshift}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="shapeshift"
                       ></img>
                     </a>
                   </div>
@@ -205,7 +205,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={fold}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="fold"
                       ></img>
                     </a>
                   </div>
@@ -219,7 +219,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={jovian}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="jovian"
                       ></img>
                     </a>
                   </div>
@@ -233,7 +233,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={digital}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="digitalocean"
                       ></img>
                     </a>
                   </div>
@@ -247,7 +247,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={streamyard}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="streamyard"
                         style={{padding: "0"}}
                       ></img>
                     </a>
@@ -262,7 +262,7 @@ const Sponsors = () => {
                         src="images/loader.gif"
                         data-src={manning}
                         className="sponsor-img lazy"
-                        alt="devfolio"
+                        alt="manning"
                         style={{padding: "0"}}
                       ></img>
                     </a>
@@ -288,7 +288,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={hattsoff}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="hattsoff"
                    style={{padding: "0"}}
                  ></img>
                </a>
@@ -303,7 +303,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={replit}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="replit"
                    style={{padding: "0"}}
                  ></img>
                </a>
@@ -318,7 +318,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={sketch}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="sketch"
                    style={{padding: "0"}}
                  ></img>
                </a>
@@ -333,7 +333,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={voiceflow}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="voiceflow"
                  ></img>
                </a>
              </div>
@@ -347,7 +347,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={manning}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="manning"
                    style={{padding: "0"}}
                  ></img>
                </a>
@@ -362,7 +362,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={zulip}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="zulip"
                  ></img>
                </a>
              </div>
@@ -376,7 +376,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={jetbrains}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="jetbrains"
                  ></img>
                </a>
              </div>
@@ -390,7 +390,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={fb}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="fbdevcircleindore"
                    
                  ></img>
                </a>
@@ -405,7 +405,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={give}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="givemycertificate"
                    style={{padding: "0"}}
                  ></img>
                </a>
@@ -432,7 +432,7 @@ const Sponsors = () => {
                    src="images/loader.gif"
                    data-src={progate}
                    className="sponsor-img lazy"
-                   alt="devfolio"
+                   alt="progate"
                    style={{padding: "0"}}
                  ></img>
                </a>
@@ -448,6 +448,21 @@ const Sponsors = () => {
 <div className="row justify-content-center">
   <div className="col-md-10">
       <div className="row sponsors justify-content-center">
+      <div className="col-md-4 sponsor-img-wrapper">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://flutterchandigarh.github.io/#/"
+          >
+            <img
+              src="images/loader.gif"
+              data-src={flutterchandigarh}
+              className="sponsor-img lazy"
+              alt="flutterchandigarh"
+              style={{padding: "0"}}
+            ></img>
+          </a>
+        </div>
         <div className="col-md-4 sponsor-img-wrapper">
           <a
             target="_blank"
@@ -458,7 +473,7 @@ const Sponsors = () => {
               src="images/loader.gif"
               data-src={gdgmysuru}
               className="sponsor-img lazy"
-              alt="devfolio"
+              alt="gdgmysuru"
               style={{padding: "0"}}
             ></img>
           </a>
@@ -473,7 +488,7 @@ const Sponsors = () => {
               src="images/loader.gif"
               data-src={tfmysuru}
               className="sponsor-img lazy"
-              alt="devfolio"
+              alt="tfmysuru"
             ></img>
           </a>
         </div>
@@ -487,7 +502,7 @@ const Sponsors = () => {
               src="images/loader.gif"
               data-src={fb}
               className="sponsor-img lazy"
-              alt="devfolio"
+              alt="fbdevcircleindore"
             ></img>
           </a>
         </div>
@@ -501,7 +516,7 @@ const Sponsors = () => {
               src="images/loader.gif"
               data-src={karnatakapolice}
               className="sponsor-img lazy"
-              alt="devfolio"
+              alt="karnatakapolice"
               style={{padding: "2rem"}}
             ></img>
           </a>
