@@ -7,6 +7,8 @@ import RegisterModal from "./components/register-modal";
 const Landing = () => {
   const [isModalOpen, setisModalOpen] = useState(false);
   const [hasRegistered, setHasRegistered] = useState(false);
+  
+
   return (
     <section className="row landing__wrapper" id="landing-section">
       <div className="col-md-6 landing__content">
