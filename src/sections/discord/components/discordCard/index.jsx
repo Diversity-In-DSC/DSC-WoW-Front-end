@@ -23,7 +23,7 @@ const DiscordCard = (props) => {
             </p>
 
             <div id="discord-button">
-              <a href="https://discord.gg/75xey3Z" target="_blank">
+              <a href="https://discord.gg/eBKadUzQjT" target="_blank">
                 <div class="icon">
                   <svg
                     id="Layer_1"
