@@ -4,10 +4,64 @@ import "./styles/index.css";
 
 const speakersData = [
   {
+    name: "Rachel Hu",
+    title: "ML Expert",
+    description:
+      "Applied Scientist at AWS AI | Former Data Scientist at Ultimate Software",
+    linkedin: "https://www.linkedin.com/in/rachelsonghu/",
+    image: "images/speakers/rachel.jpg",
+  },
+  {
+    name: "Koren Grinshpoon",
+    title: "echoAR",
+    description: "Founder & COO at echoAR (Techstars '19)",
+    image: "images/speakers/koren.jpg",
+    linkedin: "https://www.linkedin.com/in/korengrinshpoon/",
+  },
+  {
+    name: "Miri Rodriguez",
+    title: "Author",
+    image: "images/speakers/miri.jpg",
+    description: "Author: Brand Storytelling | Storyteller + Global Head of Internships at Microsoft ",
+    linkedin: "https://www.linkedin.com/in/mirirod/",
+  },
+  {
+    title: "Program Manager",
+    linkedin: "https://www.linkedin.com/in/sidagarwal04",
+    name: "Siddhant Aggarwal",
+    description:
+      "ACM's Distinguished Speaker | Developer Relations @ Google India | Tech Communities + Edu + Design + Startups",
+    image: "images/speakers/sid.jpg",
+  },
+  {
+    name: "Usha Rengaraju",
+    title: "Data Scientist",
+    description:
+      "Principal Data Scientist | 2x Kaggle Grandmaster | Polymath | Corporate and Faculty Training Programs",
+    linkedin: "https://www.linkedin.com/in/usha-rengaraju-b570b7a2/",
+    image: "images/speakers/usha.jpg",
+  },
+  {
+    name: "Rohan Mishra",
+    title: "Product Designer",
+    description:
+      "Product Designer at Zomato | Maker of Match | UX Designer | UX Researcher | Founder, Design Sundays",
+    image: "images/speakers/rohan.jpg",
+    linkedin: "https://www.linkedin.com/in/iamrohanmishra/",
+  },
+  {
+    name: "Charu Choudha",
+    title: "UX Designer",
+    description:
+      "UX Designer at Google | Former UX Designer at Microsoft | Former Product Designer at Zomato",
+    image: "images/speakers/charu.jpg",
+    linkedin: "https://www.linkedin.com/in/charu-choudha-11725047/",
+  },
+  {
     name: "Sayak Paul",
     title: "ML Expert",
     description:
-      "Deep Learning Associate at PyImageSearch | Co-author of Web-DL book (bit.ly/webdl-book)",
+      "Deep Learning Associate at PyImageSearch | Co-author of Web-DL book",
     linkedin: "https://www.linkedin.com/in/sayak-paul/",
     image: "images/speakers/sayak.jpg",
   },
@@ -28,18 +82,11 @@ const speakersData = [
     title: "Flutter Developer",
   },
   {
-    name: "Koren Grinshpoon",
-    title: "echoAR",
-    description: "Founder & COO at echoAR (Techstars '19)",
-    image: "images/speakers/koren.jpg",
-    linkedin: "https://www.linkedin.com/in/korengrinshpoon/",
-  },
-  {
-    name: "Nikhil Madhusudan",
-    title: "Program Manager",
-    image: "images/speakers/nikhil.jpg",
-    description: "Program Manager at Google, Former CEO @JellyCone",
-    linkedin: "https://www.linkedin.com/in/nikhilraichur/",
+    name: "Pranay Chauhan",
+    title: "Blockchain",
+    image: "images/speakers/pranay.jpg",
+    description: "BlockChain | Cyber Security | Virtualization",
+    linkedin: "https://www.linkedin.com/in/pranay-singh-chauhan-00581b64/",
   },
   {
     title: "Developer Advocate",
@@ -50,13 +97,16 @@ const speakersData = [
     image: "images/speakers/ada.jpg",
   },
   {
+    name: "Nikhil Raichur",
     title: "Program Manager",
-    linkedin: "https://www.linkedin.com/in/sidagarwal04",
-    name: "Siddhant Aggarwal",
-    description:
-      "ACM's Distinguished Speaker | Developer Relations @ Google India | Tech Communities + Edu + Design + Startups",
-    image: "images/speakers/sid.jpg",
+    image: "images/speakers/nikhil.jpg",
+    description: "Program Manager at Google, Former CEO @JellyCone",
+    linkedin: "https://www.linkedin.com/in/nikhilraichur/",
   },
+ 
+ 
+  
+  
 ];
 
 const Speakers = () => {
