@@ -43,7 +43,10 @@ const NewSponsors = (props) => {
               </div>
 
               <div id="newsponsor-button">
-                <a href="mailto:sponsors@dscwow.tech" target="_blank">
+                <a 
+                  href="https://drive.google.com/file/d/1O65uQ_A701zhr4w3Kig-tThnvzsb0mk7/view?usp=sharing" 
+                  target="_blank" rel="noreferrer"
+                >
                   <div
                     className="icon"
                     style={{ height: "1.25rem", width: "1.25rem" }}

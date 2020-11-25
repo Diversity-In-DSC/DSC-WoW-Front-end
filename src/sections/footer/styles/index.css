@@ -20,6 +20,21 @@
 .wow__footer__link {
   margin-right: 0.5rem;
 }
+.text-twitter{
+  color: #00acee; 
+  font-size: 1.5em;
+}
+.text-instagram{
+  color: white;
+  padding: 2px 3px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+  font-size: 1.5em;
+}
+.text-linkedin{
+  color: #0e76a8; 
+  font-size: 1.65em;
+}
+.text-youtube{font-size: 1.65em;}
 
 @media screen and (max-width: 960px) {
   .footer__wrapper {

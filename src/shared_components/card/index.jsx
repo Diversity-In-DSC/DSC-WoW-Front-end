@@ -21,12 +21,8 @@ const Card = (props) => {
             <div className="hackathon__title">Code Off Duty</div>
             <div className="hackathon__duration">48 Hours Hackathon</div>
 
-            <a
-              href="https://hackathon.dscwow.tech"
-              target="_blank"
-              rel="noopener"
-            >
-              <button className="buttonfx slideleft">Register Now</button>
+            <a  href="#" target="_blank" rel="noopener" aria-disabled>
+              <button class="buttonfx slideleft" disabled>Coming Soon!</button>
             </a>
           </div>
           {/* <div className="col-md-6 hackathon__lottie"> */}
