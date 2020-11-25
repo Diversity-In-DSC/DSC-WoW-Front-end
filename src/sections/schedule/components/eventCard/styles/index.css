@@ -1,0 +1,70 @@
+.event__image {
+  max-width: 100%;
+  position: absolute;
+  /* right: 0; */
+  bottom: 0;
+  top: 0;
+  left: 25%;
+  object-fit: contain;
+  z-index: 0;
+  opacity: 0.5;
+}
+.event__card__wrapper {
+  position: relative;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 5px 0 rgba(20, 19, 19, 0.212),
+    0 1px 5px 0 rgba(20, 19, 19, 0.212);
+  object-fit: contain;
+  overflow: hidden;
+  min-height: 200px;
+  max-height: 256px;
+ max-width: 32%;
+  margin: .25rem .5rem;
+  min-width: 300px;
+}
+
+.event__card__content {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1rem 1.25rem;
+}
+
+.event__card__content .event__name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.event__card__content .event__timings {
+  font-weight: 300;
+}
+
+.event__card__content .watch__btn {
+  cursor: pointer;
+  margin: auto 0;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: var(--btn-primary);
+  padding: 0.1rem 0.25rem;
+  border: 1.5px solid var(--btn-primary);
+  border-radius: 5px;
+  text-align: center;
+  transition: var(--transition-speed);
+  outline: none;
+  font-size: 0.9rem;
+}
+.event__card__content .watch__btn:hover {
+  background: var(--hover-state);
+}
+.event__card__content .watch__btn:focus {
+  background: var(--focused-state);
+}
+
+.event__card__content .watch__btn:disabled {
+  cursor: not-allowed;
+}

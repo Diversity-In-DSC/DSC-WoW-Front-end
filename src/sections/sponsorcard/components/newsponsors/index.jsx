@@ -21,13 +21,13 @@ const NewSponsors = (props) => {
             <div className="card__actions">
               <div id="newsponsor-button">
                 <a href="mailto:sponsors@dscwow.tech" target="_blank">
-                  <div class="icon">
+                  <div className="icon">
                     <svg
                       aria-hidden="true"
                       focusable="false"
                       data-prefix="fas"
                       data-icon="envelope"
-                      class="svg-inline--fa fa-envelope fa-w-16"
+                      className="svg-inline--fa fa-envelope fa-w-16"
                       role="img"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
@@ -45,7 +45,7 @@ const NewSponsors = (props) => {
               <div id="newsponsor-button">
                 <a href="mailto:sponsors@dscwow.tech" target="_blank">
                   <div
-                    class="icon"
+                    className="icon"
                     style={{ height: "1.25rem", width: "1.25rem" }}
                   >
                     <svg
@@ -53,7 +53,7 @@ const NewSponsors = (props) => {
                       focusable="false"
                       data-prefix="fas"
                       data-icon="file-download"
-                      class="svg-inline--fa fa-file-download fa-w-12"
+                      className="svg-inline--fa fa-file-download fa-w-12"
                       role="img"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 384 512"
@@ -72,6 +72,7 @@ const NewSponsors = (props) => {
           <img
             src="images/bg.jpg"
             className="card__graphics newsponsor__vid "
+            alt="New Sponsors DSC WOW"
           />
         </div>
       </div>
