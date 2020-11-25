@@ -132,6 +132,7 @@
     /* display: none; */
     z-index: -2;
     opacity: 0.1;
+    height: 100%;
   }
   .hackathon__title {
     font-size: 3.5rem;
@@ -143,10 +144,10 @@
     padding: 8px 14px;
   }
   .card__content {
-    height: 264px;
+    height: auto;
     margin: 0 1rem;
   }
   .card__content__inner {
-    height: 264px;
+    height: auto;
   }
 }

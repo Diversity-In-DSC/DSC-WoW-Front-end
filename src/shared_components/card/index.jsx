@@ -26,7 +26,11 @@ const Card = (props) => {
             </a>
           </div>
           {/* <div className="col-md-6 hackathon__lottie"> */}
-          <img src="images/card/graphics.png" className="card__graphics" alt="DSC WOW" />
+          <img
+            src="images/card/graphics.png"
+            className="card__graphics"
+            alt="CodeOffDuty Hackathon DSC WOW"
+          />
         </div>
       </div>
     </Tilt>

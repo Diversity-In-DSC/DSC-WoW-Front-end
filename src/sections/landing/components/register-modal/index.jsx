@@ -25,7 +25,34 @@ const useStyles = makeStyles((theme) => ({
 const RegisterModal = ({ isOpen, closeModal, setRegistered }) => {
   const classes = useStyles();
 
+  const refId = (new URLSearchParams(window.location.search)).get("ref");
+
   const [isRegistered, setIsRegistered] = useState(false);
+  const [email, setEmail] = useState(null);
+  const [name, setName] = useState(null);
+  const [ref, setRef] = useState(refId);
+
+  const register = (e) => {
+    e.preventDefault();
+
+    const requestOptions = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: name, email: email, ref: ref })
+    };
+
+    fetch('https://api.dscwow.tech/api/user/register', requestOptions)
+      .then((response) => {
+        console.log(response);
+        // Add success alert here.
+      })
+      .catch((err) => {
+        console.log(err);
+        // Add error alert here.
+      })
+
+    // setIsRegistered(true);
+  }
 
   return (
     <Modal
@@ -78,11 +105,6 @@ const RegisterModal = ({ isOpen, closeModal, setRegistered }) => {
           <form
             className={`${classes.root} register__form`}
             autoComplete="off"
-            onSubmit={(e) => {
-              e.preventDefault();
-              // REGISTER WITH THE API HERE
-              setIsRegistered(true);
-            }}
           >
             <TextField
               id="name"
@@ -90,6 +112,8 @@ const RegisterModal = ({ isOpen, closeModal, setRegistered }) => {
               label="Name"
               variant="outlined"
               required={true}
+              value={name}
+              onChange={e => setName(e.target.value)}
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
@@ -103,6 +127,8 @@ const RegisterModal = ({ isOpen, closeModal, setRegistered }) => {
               type="email"
               label="Email Address"
               variant="outlined"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
               required={true}
               InputProps={{
                 startAdornment: (
@@ -118,6 +144,8 @@ const RegisterModal = ({ isOpen, closeModal, setRegistered }) => {
               label="Referral Code (Optional)"
               variant="filled"
               required={false}
+              value={ref}
+              onChange={e => setRef(e.target.value)}
             />
 
             <Button
@@ -126,6 +154,8 @@ const RegisterModal = ({ isOpen, closeModal, setRegistered }) => {
               variant="contained"
               color="primary"
               disableElevation={true}
+              disabled={!email || !name}
+              onClick={register}
             >
               Register
             </Button>
