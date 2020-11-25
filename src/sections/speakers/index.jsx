@@ -30,7 +30,7 @@ const speakersData = [
     linkedin: "https://www.linkedin.com/in/sidagarwal04",
     name: "Siddhant Aggarwal",
     description:
-      "ACM's Distinguished Speaker | Developer Relations @ Google India | Tech Communities + Edu + Design + Startups",
+      "ACM's Distinguished Speaker | Developer Relations at Google India | Tech Communities + Edu + Design + Startups",
     image: "images/speakers/sid.jpg",
   },
   {
@@ -76,7 +76,7 @@ const speakersData = [
   {
     name: "Sanskar Tiwari",
     image: "images/speakers/sanskar.jpg",
-    description: "SDE @ PuStack, Educator at Youtube Blog @ flutternerd.com",
+    description: "SDE at PuStack | Educator at Youtube Blog at flutternerd.com",
     linkedin: "https://www.linkedin.com/in/lamsanskar/",
     twitter: "https://twitter.com/Theindianappguy",
     title: "Flutter Developer",
@@ -100,7 +100,7 @@ const speakersData = [
     name: "Nikhil Raichur",
     title: "Program Manager",
     image: "images/speakers/nikhil.jpg",
-    description: "Program Manager at Google, Former CEO @JellyCone",
+    description: "Program Manager at Google | Former CEO @JellyCone",
     linkedin: "https://www.linkedin.com/in/nikhilraichur/",
   },
  
