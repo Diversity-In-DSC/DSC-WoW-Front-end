@@ -7,7 +7,6 @@ import RegisterModal from "./components/register-modal";
 const Landing = () => {
   const [isModalOpen, setisModalOpen] = useState(false);
   const [hasRegistered, setHasRegistered] = useState(false);
-  
 
   return (
     <section className="row landing__wrapper" id="landing-section">
@@ -20,7 +19,7 @@ const Landing = () => {
           playsInline={true}
         >
           <source src="images/logos/dsc-wow-white.webm" type="video/webm" />
-          {/* <source src="my-animation.mp4" type="video/mp4" /> */}
+          <source src="images/logos/dsc-wow-white.mp4" type="video/mp4" />
         </video>
 
         <span className="landing__date">
