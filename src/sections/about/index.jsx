@@ -1,7 +1,8 @@
 import React from "react";
-// import about from "./about.jpg";
 import "./styles/index.css";
 import Typed from "react-typed";
+
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -46,9 +47,11 @@ const About = () => {
               journey.
             </p>
 
-            <a href="#" target="_blank" rel="noopener" disabled>
-              <button className="secondary__btn" disabled>View Collaborating DSCs</button>
-            </a>
+            <Link to="/clubs">
+              <button className="secondary__btn">
+                View Collaborating DSCs
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,6 +1,10 @@
 // Shared Components
 import Sidebar from "./shared_components/sidebar";
+import Map from "./map";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+// Router
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // Sections
 import Landing from "./sections/landing";
@@ -14,6 +18,22 @@ import SponsorCard from "./sections/sponsorcard";
 import Footer from "./sections/footer";
 
 function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/clubs" exact>
+          <Map />
+        </Route>
+
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
+  );
+}
+
+const Home = () => {
   return (
     <>
       <Sidebar />
@@ -39,6 +59,6 @@ function App() {
       </main>
     </>
   );
-}
+};
 
 export default App;

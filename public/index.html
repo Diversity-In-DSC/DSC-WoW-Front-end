@@ -24,11 +24,6 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <!-- Bootstrap CDN -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
 
     <!-- FontAwesome 5 CDN -->
     <link
@@ -36,14 +31,19 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PCMLB63HY2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PCMLB63HY2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-PCMLB63HY2');
-</script>
+      gtag("config", "G-PCMLB63HY2");
+    </script>
 
     <title>DSC WOW</title>
   </head>
@@ -63,9 +63,6 @@
     <script src="./scripts/yall.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", yall);
-
-
-      
     </script>
   </body>
 </html>
