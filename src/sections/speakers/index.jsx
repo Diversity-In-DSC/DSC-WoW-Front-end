@@ -5,7 +5,7 @@ import "./styles/index.css";
 const speakersData = [
   {
     name: "Rachel Hu",
-    title: "ML Expert",
+    title: "Scientist",
     description:
       "Applied Scientist at AWS AI | Former Data Scientist at Ultimate Software",
     linkedin: "https://www.linkedin.com/in/rachelsonghu/",
@@ -59,7 +59,7 @@ const speakersData = [
   },
   {
     name: "Sayak Paul",
-    title: "ML Expert",
+    title: "Deep Learning Associate",
     description:
       "Deep Learning Associate at PyImageSearch | Co-author of Web-DL book",
     linkedin: "https://www.linkedin.com/in/sayak-paul/",
