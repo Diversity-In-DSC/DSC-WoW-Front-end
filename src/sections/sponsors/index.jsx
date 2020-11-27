@@ -48,7 +48,7 @@ const Sponsors = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.scaler.com/"
+                      href="https://www.scaler.com/edge/?utm_source=dsc_channels&utm_medium=social&utm_campaign=dsc_wow"
                     >
                       <img
                         src="images/loader.gif"
