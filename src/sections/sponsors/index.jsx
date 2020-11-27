@@ -12,7 +12,7 @@ import jetbrains from "./assets/jetbrains.png";
 import jovian from "./assets/jovian.png";
 import matic from "./assets/matic.png";
 import flutterchandigarh from "./assets/flutter-chandigarh.png";
-import scaler from './assets/scaler.png';
+import scaler from './assets/scalar.jpg';
 import airmeet from './assets/airmeet.png';
 import mysuru from './assets/mysuru.png';
 import tezos from './assets/tezos.png';
