@@ -16,6 +16,7 @@
     "react-lazyload": "^3.1.0",
     "react-lottie": "^1.2.3",
     "react-modal": "^3.12.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-tilt": "^0.1.4",
     "react-typed": "^1.2.0",
