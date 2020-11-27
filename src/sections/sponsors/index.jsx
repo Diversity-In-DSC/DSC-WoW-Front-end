@@ -12,7 +12,7 @@ import jetbrains from "./assets/jetbrains.png";
 import jovian from "./assets/jovian.png";
 import matic from "./assets/matic.png";
 import flutterchandigarh from "./assets/flutter-chandigarh.png";
-import scaler from './assets/scaler.png';
+import scaler from './assets/scalar.jpg';
 import airmeet from './assets/airmeet.png';
 import mysuru from './assets/mysuru.png';
 import tezos from './assets/tezos.png';
@@ -48,7 +48,7 @@ const Sponsors = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.scaler.com/"
+                      href="https://www.scaler.com/edge/?utm_source=dsc_channels&utm_medium=social&utm_campaign=dsc_wow"
                     >
                       <img
                         src="images/loader.gif"
