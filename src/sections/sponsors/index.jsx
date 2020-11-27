@@ -18,7 +18,7 @@ import mysuru from './assets/mysuru.png';
 import tezos from './assets/tezos.png';
 import streamyard from './assets/streamyard.png';
 import manning from './assets/manning.png';
-import hattsoff from './assets/hattsoff.png';
+//import hattsoff from './assets/hattsoff.png';
 import replit from './assets/replit.png';
 import sketch from './assets/sketch.png';
 import voiceflow from './assets/voiceflow.png';
@@ -30,6 +30,7 @@ import gdgmysuru from './assets/gdgmysuru.png';
 import tfmysuru from './assets/tfmysuru.png';
 import googledev from './assets/googledev.png';
 import portis from './assets/portis.png';
+import noticebard from './assets/noticebard.png';
 
 const Sponsors = () => {
   return (
@@ -278,21 +279,7 @@ const Sponsors = () => {
      <div className="row justify-content-center">
        <div className="col-md-10">
            <div className="row sponsors justify-content-center">
-             <div className="col-md-4 sponsor-img-wrapper">
-               <a
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 href="https://www.hattsoffstore.com/"
-               >
-                 <img
-                   src="images/loader.gif"
-                   data-src={hattsoff}
-                   className="sponsor-img lazy"
-                   alt="hattsoff"
-                   style={{padding: "0"}}
-                 ></img>
-               </a>
-             </div>
+            
              <div className="col-md-4 sponsor-img-wrapper">
                <a
                  target="_blank"
@@ -337,21 +324,7 @@ const Sponsors = () => {
                  ></img>
                </a>
              </div>
-             <div className="col-md-4 sponsor-img-wrapper">
-               <a
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 href="https://www.manning.com/"
-               >
-                 <img
-                   src="images/loader.gif"
-                   data-src={manning}
-                   className="sponsor-img lazy"
-                   alt="manning"
-                   style={{padding: "0"}}
-                 ></img>
-               </a>
-             </div>
+            
              <div className="col-md-4 sponsor-img-wrapper">
                <a
                  target="_blank"
@@ -526,6 +499,34 @@ const Sponsors = () => {
   </div>
 </div>
 </div>
+<br/>
+
+<div className="sponsor-tier">
+<div className="sponsor-tier-title">Media Partners</div>
+<div className="row justify-content-center">
+  <div className="col-md-10">
+      <div className="row sponsors justify-content-center">
+        
+        <div className="col-md-4 sponsor-img-wrapper">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.noticebard.com/"
+          >
+            <img
+              src="images/loader.gif"
+              data-src={noticebard}
+              className="sponsor-img lazy"
+              alt="noticebard"
+              style={{padding: "0"}}
+            ></img>
+          </a>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+<br/>
 
       </div>
 
