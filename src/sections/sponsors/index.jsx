@@ -14,9 +14,8 @@ import matic from "./assets/matic.png";
 import flutterchandigarh from "./assets/flutter-chandigarh.png";
 import scaler from './assets/scaler.png';
 import airmeet from './assets/airmeet.png';
-import mysore from './assets/mysore.png';
+import mysuru from './assets/mysuru.png';
 import tezos from './assets/tezos.png';
-import shapeshift from './assets/shapeshift.png';
 import streamyard from './assets/streamyard.png';
 import manning from './assets/manning.png';
 import hattsoff from './assets/hattsoff.png';
@@ -30,6 +29,7 @@ import progate from './assets/progate.png';
 import gdgmysuru from './assets/gdgmysuru.png';
 import tfmysuru from './assets/tfmysuru.png';
 import googledev from './assets/googledev.png';
+import portis from './assets/portis.png';
 
 const Sponsors = () => {
   return (
@@ -116,13 +116,13 @@ const Sponsors = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.mysoretourism.org.in/"
+                      href="https://www.instagram.com/mysuru/"
                     >
                       <img
                         src="images/loader.gif"
-                        data-src={mysore}
+                        data-src={mysuru}
                         className="sponsor-img lazy"
-                        alt="mysore tourism"
+                        alt="mysuru"
                         style={{padding: "0"}}
                       ></img>
                     </a>
@@ -185,13 +185,13 @@ const Sponsors = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://shapeshift.com/"
+                      href="https://www.portis.io/"
                     >
                       <img
                         src="images/loader.gif"
-                        data-src={shapeshift}
+                        data-src={portis}
                         className="sponsor-img lazy"
-                        alt="shapeshift"
+                        alt="portis"
                       ></img>
                     </a>
                   </div>
