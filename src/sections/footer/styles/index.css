@@ -10,8 +10,8 @@
   display: flex;
   align-items: flex-end;
 }
- .copyright {
-  font-size: .9rem;
+.copyright {
+  font-size: 0.9rem;
   font-weight: 400;
 }
 .wow__footer__links {
@@ -20,21 +20,38 @@
 .wow__footer__link {
   margin-right: 0.5rem;
 }
-.text-twitter{
-  color: #00acee; 
+
+.social__links .fab {
+  color: #444444;
   font-size: 1.5em;
+  transition: all ease-in-out var(--transition-speed);
 }
-.text-instagram{
-  color: white;
-  padding: 2px 3px;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
-  font-size: 1.5em;
+
+.social__links .fab:hover{
+  color: var(--btn-primary);
 }
-.text-linkedin{
-  color: #0e76a8; 
-  font-size: 1.65em;
+
+.credits {
+  text-align: right;
 }
-.text-youtube{font-size: 1.65em;}
+.contributors__wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.creator__card {
+  width: 48px;
+  height: 48px;
+  margin: 0 16px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  transition: all ease-in-out 250ms;
+}
+
+.creator__img {
+  display: block;
+  width: 100%;
+}
 
 @media screen and (max-width: 960px) {
   .footer__wrapper {

@@ -1,12 +1,8 @@
 import React from "react";
 import "./styles/index.css";
 import Tilt from "react-tilt";
-import Lottie from "lottie-react-web";
-import animation from "./lottie.json";
 
 const Card = (props) => {
-  // let classNames = "card__content Tilt ";
-  // classNames += props.size;
   return (
     <Tilt
       className="col-md-9 card__content Tilt"
@@ -17,18 +13,23 @@ const Card = (props) => {
         style={{ backgroundColor: props.color, scale: 1 }}
       >
         <div className="row">
-          <div className="col-md-6 align-items-start">
+          <div className="col-lg-6 col-md-9 col-xs-12
+           align-items-start">
             <div className="hackathon__title">Code Off Duty</div>
             <div className="hackathon__duration">48 Hours Hackathon</div>
 
-            <a  href="https://hackathon.dscwow.tech/" target="_blank" rel="noopener" >
+            <a
+              href="https://hackathon.dscwow.tech/"
+              target="_blank"
+              rel="noopener"
+            >
               <button class="buttonfx slideleft">Register Now</button>
             </a>
           </div>
-          {/* <div className="col-md-6 hackathon__lottie"> */}
           <img
-            src="images/card/graphics.png"
-            className="card__graphics"
+          src=""
+            data-src="images/card/graphics.png"
+            className="card__graphics lazy"
             alt="CodeOffDuty Hackathon DSC WOW"
           />
         </div>

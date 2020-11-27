@@ -15,7 +15,9 @@ const NewSponsors = (props) => {
           <div className="col-md-9 col-lg-6 col-sm-12 align-items-start newsponsor__content">
             <h3>Want to sponsor 'Week of Wonders' ?</h3>
             <p>
-              Grow your brand and reach, while also giving your valuable contributions to the community. Write us an email at <h5 className="sponsor__email">sponsors@dscwow.tech</h5>
+              Grow your brand and reach, while also giving your valuable
+              contributions to the community. Write us an email at{" "}
+              <h5 className="sponsor__email">sponsors@dscwow.tech</h5>
             </p>
 
             <div className="card__actions">
@@ -43,9 +45,10 @@ const NewSponsors = (props) => {
               </div>
 
               <div id="newsponsor-button">
-                <a 
-                  href="https://drive.google.com/file/d/1O65uQ_A701zhr4w3Kig-tThnvzsb0mk7/view?usp=sharing" 
-                  target="_blank" rel="noreferrer"
+                <a
+                  href="https://drive.google.com/file/d/1O65uQ_A701zhr4w3Kig-tThnvzsb0mk7/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <div
                     className="icon"
@@ -73,8 +76,9 @@ const NewSponsors = (props) => {
             </div>
           </div>
           <img
-            src="images/bg.jpg"
-            className="card__graphics newsponsor__vid "
+            src=""
+            data-src="images/bg.jpg"
+            className="card__graphics newsponsor__vid lazy"
             alt="New Sponsors DSC WOW"
           />
         </div>
