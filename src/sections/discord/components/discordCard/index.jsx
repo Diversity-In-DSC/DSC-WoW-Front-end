@@ -45,13 +45,13 @@ const DiscordCard = (props) => {
             </div>
           </div>
           <video
-            className="card__graphics discord__vid"
+            className="card__graphics discord__vid lazy"
             autoPlay={true}
             loop={true}
             muted={true}
             playsInline={true}
           >
-            <source src="images/discord.webm" type="video/webm" />
+            <source data-src="images/discord.webm" type="video/webm" className="lazy"/>
           </video>
         </div>
       </div>
