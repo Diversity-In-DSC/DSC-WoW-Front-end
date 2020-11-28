@@ -12,12 +12,12 @@ import jetbrains from "./assets/jetbrains.png";
 import jovian from "./assets/jovian.png";
 import matic from "./assets/matic.png";
 import flutterchandigarh from "./assets/flutter-chandigarh.png";
-import scaler from './assets/scalar.jpg';
+import scaler from './assets/scaler.png';
 //import airmeet from './assets/airmeet.png';
 import mysuru from './assets/mysuru.png';
 import tezos from './assets/tezos.png';
 import streamyard from './assets/streamyard.png';
-//import manning from './assets/manning.png';
+import manning from './assets/manning.png';
 import hattsoff from './assets/hattsoff.png';
 import replit from './assets/replit.png';
 import sketch from './assets/sketch.png';
@@ -31,6 +31,9 @@ import tfmysuru from './assets/tfmysuru.png';
 import googledev from './assets/googledev.png';
 import portis from './assets/portis.png';
 import noticebard from './assets/noticebard.png';
+import egghead from './assets/egghead.png';
+import taskade from './assets/taskade.png';
+import strikingly from './assets/strikingly.png';
 
 const Sponsors = () => {
   return (
@@ -240,6 +243,38 @@ const Sponsors = () => {
                       ></img>
                     </a>
                   </div>
+
+                  <div className="col-md-4 sponsor-img-wrapper">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.manning.com/"
+                    >
+                      <img
+                        src="images/loader.gif"
+                        data-src={manning}
+                        className="sponsor-img lazy"
+                        alt="manning-books"
+                        style={{padding: "0"}}
+                      ></img>
+                    </a>
+                  </div>
+
+                  <div className="col-md-4 sponsor-img-wrapper">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://egghead.io/"
+                    >
+                      <img
+                        src="images/loader.gif"
+                        data-src={egghead}
+                        className="sponsor-img lazy"
+                        alt=""egghead
+                        style={{padding: "0"}}
+                      ></img>
+                    </a>
+                  </div>
                   
                 </div>
             </div>
@@ -371,6 +406,22 @@ const Sponsors = () => {
                       ></img>
                     </a>
                   </div>
+
+                <div className="col-md-4 sponsor-img-wrapper">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.taskade.com/"
+                  >
+                    <img
+                      src="images/loader.gif"
+                      data-src={taskade}
+                      className="sponsor-img lazy"
+                      alt="taskade"
+                      style={{padding: "0"}}
+                    ></img>
+                  </a>
+                </div>
            </div>
        </div>
      </div>
@@ -394,6 +445,22 @@ const Sponsors = () => {
                    data-src={progate}
                    className="sponsor-img lazy"
                    alt="progate"
+                   style={{padding: "0"}}
+                 ></img>
+               </a>
+             </div>
+
+             <div className="col-md-4 sponsor-img-wrapper">
+               <a
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 href="https://www.strikingly.com/"
+               >
+                 <img
+                   src="images/loader.gif"
+                   data-src={strikingly}
+                   className="sponsor-img lazy"
+                   alt="strikingly"
                    style={{padding: "0"}}
                  ></img>
                </a>
@@ -453,20 +520,7 @@ const Sponsors = () => {
             ></img>
           </a>
         </div>
-        <div className="col-md-4 sponsor-img-wrapper">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.facebook.com/groups/DevCIndore/"
-          >
-            <img
-              src="images/loader.gif"
-              data-src={fb}
-              className="sponsor-img lazy"
-              alt="fbdevcircleindore"
-            ></img>
-          </a>
-        </div>
+        
         <div className="col-md-4 sponsor-img-wrapper">
           <a
             target="_blank"
