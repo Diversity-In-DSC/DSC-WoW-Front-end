@@ -13,12 +13,12 @@ import jovian from "./assets/jovian.png";
 import matic from "./assets/matic.png";
 import flutterchandigarh from "./assets/flutter-chandigarh.png";
 import scaler from './assets/scalar.jpg';
-import airmeet from './assets/airmeet.png';
+//import airmeet from './assets/airmeet.png';
 import mysuru from './assets/mysuru.png';
 import tezos from './assets/tezos.png';
 import streamyard from './assets/streamyard.png';
-import manning from './assets/manning.png';
-//import hattsoff from './assets/hattsoff.png';
+//import manning from './assets/manning.png';
+import hattsoff from './assets/hattsoff.png';
 import replit from './assets/replit.png';
 import sketch from './assets/sketch.png';
 import voiceflow from './assets/voiceflow.png';
@@ -70,20 +70,7 @@ const Sponsors = () => {
           <div className="row justify-content-center">
             <div className="col-md-10">
                 <div className="row sponsors justify-content-center">
-                  <div className="col-md-4 sponsor-img-wrapper">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.airmeet.com/"
-                    >
-                      <img
-                        src="images/loader.gif"
-                        data-src={airmeet}
-                        className="sponsor-img lazy"
-                        alt="airmeet"
-                      ></img>
-                    </a>
-                  </div>
+                  
                   <div className="col-md-4 sponsor-img-wrapper">
                     <a
                       target="_blank"
@@ -253,21 +240,7 @@ const Sponsors = () => {
                       ></img>
                     </a>
                   </div>
-                  <div className="col-md-4 sponsor-img-wrapper">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.manning.com/"
-                    >
-                      <img
-                        src="images/loader.gif"
-                        data-src={manning}
-                        className="sponsor-img lazy"
-                        alt="manning"
-                        style={{padding: "0"}}
-                      ></img>
-                    </a>
-                  </div>
+                  
                 </div>
             </div>
           </div>
@@ -383,6 +356,21 @@ const Sponsors = () => {
                  ></img>
                </a>
              </div>
+             <div className="col-md-4 sponsor-img-wrapper">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://hattsoffstore.com/"
+                    >
+                      <img
+                        src="images/loader.gif"
+                        data-src={hattsoff}
+                        className="sponsor-img lazy"
+                        alt="hattsofstore"
+                        style={{padding: "0"}}
+                      ></img>
+                    </a>
+                  </div>
            </div>
        </div>
      </div>
