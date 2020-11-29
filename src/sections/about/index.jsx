@@ -38,13 +38,12 @@ const About = () => {
           </div>
           <div className="about-text">
             <p className="mb-3">
-              <span className="font-weight-bold">DSC WOW </span> is the
-              collaborative event of 100+ DSCs, who have gathered from all over
-              India to bring together students, developers and communities under
-              the same roof, where they can attain knowledge from highly
-              experienced industry professionals and can also polish their
-              coding skills, or maybe just get started with their programming
-              journey.
+              <span className="font-weight-bold">DSC WOW </span>is a collaborative 
+              event of 100+ DSCs from India, who have joined hands to bring together students,
+               developers and communities under the same roof. They can attain knowledge
+                from highly experienced industry professionals and can also polish
+                 their coding skills, or maybe just get started with their programming
+                  journey.
             </p>
 
             <Link to="/clubs">

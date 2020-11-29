@@ -34,6 +34,7 @@ import noticebard from './assets/noticebard.png';
 import egghead from './assets/egghead.png';
 import taskade from './assets/taskade.png';
 import strikingly from './assets/strikingly.png';
+import thecodingculture from './assets/thecodingculture.png';
 
 const Sponsors = () => {
   return (
@@ -533,6 +534,21 @@ const Sponsors = () => {
               className="sponsor-img lazy"
               alt="karnatakapolice"
               style={{padding: "2rem"}}
+            ></img>
+          </a>
+        </div>
+
+        <div className="col-md-4 sponsor-img-wrapper">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://thecodingculture.netlify.app/"
+          >
+            <img
+              src="images/loader.gif"
+              data-src={thecodingculture}
+              className="sponsor-img lazy"
+              alt="thecodingculture"
             ></img>
           </a>
         </div>

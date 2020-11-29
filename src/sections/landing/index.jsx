@@ -43,9 +43,9 @@ const Landing = () => {
           >
             CodeOffDuty
           </span>
-          . But to us developers and tech enthusiasts, this is much more than
-          some workshops and hackathon, it is a place where imagination meets
-          the technology of tomorrow.
+          . To us developers and tech enthusiasts, this is much more than
+           a few workshops and a hackathon, it is a place where
+            imagination meets the technology of tomorrow.
         </div>
 
         <div className="landing__actions">
