@@ -9,7 +9,7 @@ const Faq = () => {
       {
         title: "What does DSC WOW stand for?",
         content:
-          'DSC WOW stands for "DSC Week of Wonders". It\'s the brainchild event of 121 DSCs who came together to bring an amazing week to your doorstep! ',
+          'DSC WOW stands for "DSC Week of Wonders". It\'s the brainchild event of 100+ DSCs who have collaborated to bring an amazing week to your doorstep!',
       },
       {
         title: "What are the perks of attending DSC WOW?",
