@@ -341,3 +341,9 @@ $RECYCLE.BIN/
 
 # and uncomment the following lines
 # .pnp.*
+
+.vercel
+
+.firebase/
+.firebaserc
+firebase.json
