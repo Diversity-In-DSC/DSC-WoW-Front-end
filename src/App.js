@@ -4,7 +4,12 @@ import Map from "./map";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // Router
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 // Sections
 import Landing from "./sections/landing";
@@ -25,9 +30,11 @@ function App() {
           <Map />
         </Route>
 
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
+
+        <Redirect from="*" to="/" />
       </Switch>
     </Router>
   );
