@@ -103,7 +103,13 @@ const speakersData = [
     description: "Program Manager at Google | Former CEO @JellyCone",
     linkedin: "https://www.linkedin.com/in/nikhilraichur/",
   },
- 
+  {
+    name: "Nikita Gandhi",
+    title: "Program Manager",
+    image: "images/speakers/nikita.jpg",
+    description: "Community Manager at Google Developers",
+    linkedin: "https://www.linkedin.com/in/nikita-gandhi01/",
+  }
  
   
   
