@@ -31,6 +31,22 @@ const Faq = () => {
         content:
           "Yes, participation certificates will be provided to all who attend the events.",
       },
+
+      {
+        title: "What if I don't know how to code?",
+        content:
+          "That is not a problem! A great way to learn how to code is by attending a hackathon. It's an event for like-minded people to share what they are interested in and teach each-other what they are passionate about, whether its coding, electronics or anything else you want to know about. You never know what new skill you might pick up! You can also ask specific questions to our mentors and in the Discord server, where people are there to help. Plus we have planned numerous workshops and talks for you guys to make the learning process better.",
+      },
+      {
+        title: "Can the team members be from different colleges?",
+        content:
+          "Yes, we believe in healthy team spirit which will be ensured if you are allowed to work with the team of your choice",
+      },
+      {
+        title: "Can I start working on my hack before the hackathon?",
+        content:
+          "No. In the interest of fairness, students should not be working on their projects before the hackathon begins",
+      },
     ],
   };
 
