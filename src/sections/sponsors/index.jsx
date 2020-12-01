@@ -13,7 +13,7 @@ import jovian from "./assets/jovian.png";
 import matic from "./assets/matic.png";
 import flutterchandigarh from "./assets/flutter-chandigarh.png";
 import scaler from './assets/scaler.png';
-//import airmeet from './assets/airmeet.png';
+import airmeet from './assets/airmeet.png';
 import mysuru from './assets/mysuru.png';
 import tezos from './assets/tezos.png';
 import streamyard from './assets/streamyard.png';
@@ -84,6 +84,20 @@ const Sponsors = () => {
                       <img
                         src="images/loader.gif"
                         data-src={devfolio}
+                        className="sponsor-img lazy"
+                        alt="devfolio"
+                      ></img>
+                    </a>
+                  </div>
+                  <div className="col-md-4 sponsor-img-wrapper">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.airmeet.com/"
+                    >
+                      <img
+                        src="images/loader.gif"
+                        data-src={airmeet}
                         className="sponsor-img lazy"
                         alt="devfolio"
                       ></img>
