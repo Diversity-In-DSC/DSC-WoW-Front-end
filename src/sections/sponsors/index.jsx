@@ -93,7 +93,7 @@ const Sponsors = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.airmeet.com/"
+                      href="https://www.airmeet.com/ "
                     >
                       <img
                         src="images/loader.gif"
