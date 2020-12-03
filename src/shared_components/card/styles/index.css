@@ -12,6 +12,8 @@
 .card__content__inner {
   position: relative;
   height: 300px;
+  background: white;
+
   /* box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2); */
   box-shadow: 0 1px 5px 0 rgba(20, 19, 19, 0.212),
     0 1px 5px 0 rgba(20, 19, 19, 0.212);
@@ -62,13 +64,15 @@
   margin-top: 1rem;
   color: white; /* button text color */
   outline: none;
-  background: transparent;
+  background: black;
   border: none;
   border-bottom: 4px solid #eee;
   letter-spacing: 0.0625em;
   padding: 8px 10px;
   text-transform: uppercase;
-  font: bold 16px "Bitter", sans-serif; /* use google font */
+  font: 500 16px "Blockletter", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.25em;
   line-height: 2;
   position: relative;
   display: inline-block;
@@ -80,50 +84,11 @@
   transition: all 0.5s;
 }
 
-.buttonfx:before,
-.buttonfx:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  background: #00ff46; /* onhover background color */
-  z-index: -1;
-  transform: translate3D(
-    0,
-    -100%,
-    0
-  ); /* move elements above button so they don't appear initially */
-  transition: all 0.5s;
-}
-
-.buttonfx:before {
-  background: black; /* button default background color */
-  z-index: -2;
-  transform: translate3D(0, 0, 0);
-}
-
 .buttonfx:hover {
+  outline: none;
+  background: #00ff46;
   color: black;
   outline: none;
-}
-
-.buttonfx:hover:after {
-  transform: translate3D(0, 0, 0);
-  transition: all 0.5s;
-}
-
-.slideleft:after {
-  top: 0;
-  z-index: -1;
-  transform: translate3D(-101%, 0, 0);
-}
-
-.slideleft:hover:after {
-  transform: translate3D(0, 0, 0);
-  transition: all 0.5s;
 }
 
 @media screen and (max-width: 1280px) {
