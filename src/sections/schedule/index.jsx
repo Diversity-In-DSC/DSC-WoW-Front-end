@@ -14,10 +14,7 @@ import EventCard from "./components/eventCard";
 const Schedule = () => {
   return (
     <section className="schedule__wrapper" id="#schedule">
-      <Card />
-
-
-      {/* <div className="row section__header justify-content-center">
+      <div className="row section__header justify-content-center">
         <div className="col-md-10">Schedule</div>
       </div>
 
@@ -25,7 +22,7 @@ const Schedule = () => {
         <div className="col-lg-9 col-md-12 col-xs-12 scrollable__row__content">
           <ScrollableTabsButtonAuto />
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
@@ -152,6 +149,7 @@ function ScrollableTabsButtonAuto() {
       </AppBar>
       <TabPanel value={value} index={0}>
         <div className="scrollarrows_wrapper">
+          <h6 style={date}>Dec 7, 2020</h6>
           <div
             className="row scrollable__row tab-0"
             onScroll={() => scrollCheck(0)}
@@ -173,6 +171,7 @@ function ScrollableTabsButtonAuto() {
         </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
+        <h6 style={date}>Dec 8, 2020</h6>
         <div className="row scrollable__row">
           <EventCard />
           <EventCard />
@@ -183,6 +182,7 @@ function ScrollableTabsButtonAuto() {
         </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
+        <h6 style={date}>Dec 9, 2020</h6>
         <div className="row scrollable__row">
           <EventCard />
           <EventCard />
@@ -194,6 +194,7 @@ function ScrollableTabsButtonAuto() {
         </div>
       </TabPanel>
       <TabPanel value={value} index={3}>
+        <h6 style={date}>Dec 10, 2020</h6>
         <div className="row scrollable__row">
           <EventCard />
           <EventCard />
@@ -213,3 +214,10 @@ function ScrollableTabsButtonAuto() {
     </div>
   );
 }
+
+const date = {
+  padding: "10px 0 0 15px",
+  marginBottom: 0,
+  fontSize: "1.8rem",
+  color: "#6c757d",
+};

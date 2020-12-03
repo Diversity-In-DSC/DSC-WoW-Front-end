@@ -62,7 +62,7 @@ font-size: 16px;
 ##### Clone the repository
 
 ```bash
-git clone https://github.com/ishandeveloper/DSC-WOW.git
+git clone https://github.com/Diversity-In-DSC/DSC-WoW-Front-end.git
 ```
 
 ##### Move to the desired folder
