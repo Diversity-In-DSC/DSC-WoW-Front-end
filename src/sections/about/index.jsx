@@ -25,7 +25,7 @@ const About = () => {
               className="about-typer"
               style={{ wordSpacing: "3px", letterSpacing: "1px" }}
               strings={[
-                "<green>121+ DSCs</green>",
+                "<green>125+ DSCs</green>",
                 "<red>11 Speakers<red/>",
                 "<blue>7 Days</blue>",
               ]}

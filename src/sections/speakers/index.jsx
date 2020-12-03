@@ -26,6 +26,14 @@ const speakersData = [
     linkedin: "https://www.linkedin.com/in/mirirod/",
   },
   {
+    title: "Senior Program Manager at Google",
+    linkedin: "https://www.linkedin.com/in/hansonerica/",
+    name: "Erica Hanson",
+    description:
+      "Developer Relations Senior Program Manager at Google (Global Lead for Developer Student Clubs Program)",
+    image: "images/speakers/erica.jpg",
+  },
+  {
     title: "Program Manager",
     linkedin: "https://www.linkedin.com/in/sidagarwal04",
     name: "Siddhant Aggarwal",

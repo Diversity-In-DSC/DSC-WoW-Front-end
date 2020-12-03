@@ -536,6 +536,8 @@ const Sponsors = () => {
           </a>
         </div>
         
+{/* 
+
         <div className="col-md-4 sponsor-img-wrapper">
           <a
             target="_blank"
@@ -551,6 +553,9 @@ const Sponsors = () => {
             ></img>
           </a>
         </div>
+ */}
+
+
 
         <div className="col-md-4 sponsor-img-wrapper">
           <a
