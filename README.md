@@ -68,7 +68,7 @@ git clone https://github.com/Diversity-In-DSC/DSC-WoW-Front-end.git
 ##### Move to the desired folder
 
 ```bash
-cd \DSC-WOW
+cd DSC-WoW-Front-end
 ```
 
 ##### To install the dependencies, simply write
