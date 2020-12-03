@@ -85,7 +85,14 @@ yarn start
 
 ### Contributors
 
-Names will be added shortly.
+<p align="left">
+<a href="https://github.com/ishandeveloper"><img width="72px" src="https://avatars1.githubusercontent.com/u/54989142?s=460&u=4b787a0f50c1236b915d4766aa1a40c1b1d9f313&v=4"></a>
+<a href="https://github.com/maheshn22"><img width="72px" src=https://avatars0.githubusercontent.com/u/56269416?s=460&u=ce88319460f1f7c17602d5be8ed960d7443d47d5&v=4"></a>
+<a href="https://github.com/Yashank18"><img width="72px" src="https://avatars2.githubusercontent.com/u/46098062?s=460&u=1704c77ef3ffb6472dd3a01bc40df0cef01b9c09&v=4"></a>
+<a href="https://github.com/sanchibansal340"><img width="72px" src="https://avatars3.githubusercontent.com/u/51092036?s=460&u=740acc04c49c10f016de57476677063135e56f9d&v=4"></a>
+<a href="https://github.com/abhishekraj272"><img width="72px" src="https://avatars3.githubusercontent.com/u/27128838?s=460&u=801211cd3583ce1f2b9d1dd0e273835b666802a4&v=4"></a>
+<a href="https://github.com/sanket9006"><img width="72px" src="https://avatars1.githubusercontent.com/u/53385614?s=460&u=87a0c623d1928ed4322bef068581a4c251456de8&v=4"></a><a href="https://github.com/Akhil-chaudhary"><img width="72px" src="https://avatars0.githubusercontent.com/u/54743359?s=460&u=9de95b6efa9f75da8a049b04b157bf52e0cbf815&v=4"></a>
+</p>
 
 ## Learn More
 
