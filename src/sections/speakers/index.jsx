@@ -26,7 +26,7 @@ const speakersData = [
     linkedin: "https://www.linkedin.com/in/mirirod/",
   },
   {
-    title: "Senior Program Manager at Google",
+    title: "Program Manager at Google",
     linkedin: "https://www.linkedin.com/in/hansonerica/",
     name: "Erica Hanson",
     description:
