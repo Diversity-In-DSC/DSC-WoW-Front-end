@@ -1,13 +1,12 @@
 .event__image {
-  max-width: 100%;
+  max-width: 50%;
   position: absolute;
   /* right: 0; */
-  bottom: 0;
-  top: 0;
-  left: 25%;
+  right: -2.5rem;
+  bottom: -2rem;
   object-fit: contain;
   z-index: 0;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 .event__card__wrapper {
   position: relative;
@@ -19,8 +18,8 @@
   overflow: hidden;
   min-height: 200px;
   max-height: 256px;
- max-width: 32%;
-  margin: .25rem .5rem;
+  max-width: 32%;
+  margin: 0.25rem 0.5rem;
   min-width: 300px;
 }
 
@@ -33,14 +32,19 @@
   left: 0;
   bottom: 0;
   padding: 1rem 1.25rem;
+  max-width: 100%;
+  /* overflow: hidden; */
 }
 
 .event__card__content .event__name {
+  white-space: initial;
   font-size: 1.5rem;
   font-weight: 500;
 }
 .event__card__content .event__timings {
-  font-weight: 300;
+  font-size: 1.1em;
+  letter-spacing: -0.5px;
+  /* font-weight: 500; */
 }
 
 .event__card__content .watch__btn {
@@ -49,14 +53,14 @@
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  color: var(--btn-primary);
-  padding: 0.1rem 0.25rem;
-  border: 1.5px solid var(--btn-primary);
+  /* color: var(--btn-primary); */
+  padding: 0.25rem 0.75rem;
+  /* border: 1.5px solid var(--btn-primary); */
   border-radius: 5px;
   text-align: center;
   transition: var(--transition-speed);
   outline: none;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
 }
 .event__card__content .watch__btn:hover {
   background: var(--hover-state);
@@ -67,4 +71,9 @@
 
 .event__card__content .watch__btn:disabled {
   cursor: not-allowed;
+}
+
+.event__speaker {
+  color: var(--text-tertiary);
+  font-size: 0.9em;
 }

@@ -39,6 +39,8 @@
   border: none;
   transition: var(--transition-speed);
   outline: none;
+  z-index: 3;
+
 }
 .paddle:hover {
   opacity: 1;
@@ -59,4 +61,30 @@
 }
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .left-paddle {
+    left: 1rem;
+  }
+
+  .right-paddle {
+    right: 1rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .left-paddle {
+    left: 0rem;
+    display: none;
+  }
+
+  .right-paddle {
+    right: 0rem;
+    display: none;
+  }
+}
+.hackathon__card__section{
+  background: var(--bg-secondary);
+  padding: 5rem 0;
 }
