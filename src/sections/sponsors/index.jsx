@@ -78,6 +78,22 @@ const Sponsors = () => {
           <div className="row justify-content-center">
             <div className="col-md-10">
                 <div className="row sponsors justify-content-center">
+
+                <div className="col-md-4 sponsor-img-wrapper">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.airmeet.com/"
+                    >
+                      <img
+                        src="images/loader.gif"
+                        data-src={airmeet}
+                        className="sponsor-img lazy"
+                        alt="devfolio"
+                      ></img>
+                    </a>
+                  </div>
+                  
                   
                   <div className="col-md-4 sponsor-img-wrapper">
                     <a
@@ -111,20 +127,7 @@ const Sponsors = () => {
                   </div>
 
 
-                  <div className="col-md-4 sponsor-img-wrapper">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.airmeet.com/"
-                    >
-                      <img
-                        src="images/loader.gif"
-                        data-src={airmeet}
-                        className="sponsor-img lazy"
-                        alt="devfolio"
-                      ></img>
-                    </a>
-                  </div>
+                 
                   <div className="col-md-4 sponsor-img-wrapper">
                     <a
                       target="_blank"
