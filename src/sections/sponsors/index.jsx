@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles/index.css";
 //import LazyLoad from "react-lazyload";
-
+import pratilipi from "./assets/pratilipi.webp";
+import axure from "./assets/axure.png";
+import balsamiq from "./assets/balsamiq.png";
 import devfolio from "./assets/devfolio.png";
 import digital from "./assets/digital.png";
 import echo from "./assets/echo.png";
+import interviewcake from "./assets/interviewcake.svg";
 import fb from "./assets/fb.png";
 import fold from "./assets/fold.png";
 import give from "./assets/give.png";
@@ -24,6 +27,7 @@ import sketch from './assets/sketch.png';
 import voiceflow from './assets/voiceflow.png';
 import karnatakapolice from './assets/karnatakapolice.png';
 import zulip from './assets/zulip.png';
+import appstone from './assets/appstone.png';
 //import goforce from './assets/goforce.png';
 import progate from './assets/progate.png';
 import gdgmysuru from './assets/gdgmysuru.png';
@@ -89,6 +93,24 @@ const Sponsors = () => {
                       ></img>
                     </a>
                   </div>
+
+
+                  <div className="col-md-4 sponsor-img-wrapper">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.pratilipi.com/"
+                    >
+                      <img
+                        src="images/loader.gif"
+                        data-src={pratilipi}
+                        className="sponsor-img lazy"
+                        alt="pratilipi"
+                      ></img>
+                    </a>
+                  </div>
+
+
                   <div className="col-md-4 sponsor-img-wrapper">
                     <a
                       target="_blank"
@@ -349,6 +371,54 @@ const Sponsors = () => {
                  ></img>
                </a>
              </div>
+
+             <div className="col-md-4 sponsor-img-wrapper">
+               <a
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 href="https://www.axure.com/"
+               >
+                 <img
+                   src="images/loader.gif"
+                   data-src={axure}
+                   className="sponsor-img lazy"
+                   alt="axure"
+                 ></img>
+               </a>
+             </div>
+
+             <div className="col-md-4 sponsor-img-wrapper">
+               <a
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 href="https://balsamiq.com/"
+               >
+                 <img
+                   src="images/loader.gif"
+                   data-src={balsamiq}
+                   className="sponsor-img lazy"
+                   alt="balsamiq"
+                 ></img>
+               </a>
+             </div>
+
+
+             <div className="col-md-4 sponsor-img-wrapper">
+               <a
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 href="https://www.appstone.in/"
+               >
+                 <img
+                   src="images/loader.gif"
+                   data-src={appstone}
+                   className="sponsor-img lazy"
+                   alt="zulip"
+                 ></img>
+               </a>
+             </div>
+
+
              <div className="col-md-4 sponsor-img-wrapper">
                <a
                  target="_blank"
@@ -449,6 +519,23 @@ const Sponsors = () => {
                       ></img>
                     </a>
                   </div>
+
+              <div className="col-md-4 sponsor-img-wrapper">
+               <a
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 href="https://www.interviewcake.com/"
+               >
+                 <img
+                   src="images/loader.gif"
+                   data-src={interviewcake}
+                   className="sponsor-img lazy"
+                   alt="interviewcake"
+                   style={{padding: "0"}}
+                 ></img>
+               </a>
+             </div>
+
              
              <div className="col-md-4 sponsor-img-wrapper">
                <a
