@@ -9,7 +9,7 @@ import fb from "./assets/fb.png";
 import fold from "./assets/fold.png";
 import give from "./assets/give.png";
 import jetbrains from "./assets/jetbrains.png";
-import jovian from "./assets/jovian.png";
+import jovian from "./assets/jovian1.svg";
 import matic from "./assets/matic.png";
 import flutterchandigarh from "./assets/flutter-chandigarh.png";
 import scaler from './assets/scaler.png';
