@@ -114,7 +114,7 @@ function ScrollableTabsButtonAuto() {
       {
         title: "Keynote",
         time: "5:00 PM - 5:30 PM",
-        speaker: "Siddhant, Biswajeet",
+        speaker: "Siddhant, Erica",
         hero: "day1/1.png",
         link: "",
       },
