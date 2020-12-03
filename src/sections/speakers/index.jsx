@@ -74,6 +74,14 @@ const speakersData = [
     image: "images/speakers/sayak.jpg",
   },
   {
+    name: "Vrijraj Singh",
+    title: "Google Developers Expert",
+    description:
+      "Organizer, GDG Jalandhar | Google Developers Expert for Firebase & Web Technologies",
+    linkedin: "https://www.linkedin.com/in/vrijrajsingh/",
+    image: "images/speakers/vrijraj.jpg",
+  },
+  {
     name: "Mrinal Jain",
     title: "Frontend Engineer",
     description:
