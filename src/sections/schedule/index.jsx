@@ -261,22 +261,22 @@ function ScrollableTabsButtonAuto() {
         >
           <Tab
             style={{ outline: "none", maxWidth: "8rem", minWidth: "7rem" }}
-            label="Day 1"
+            label="Dec 7"
             {...a11yProps(0)}
           />
           <Tab
             style={{ outline: "none", maxWidth: "8rem", minWidth: "7rem" }}
-            label="Day 2"
+            label="Dec 8"
             {...a11yProps(1)}
           />
           <Tab
             style={{ outline: "none", maxWidth: "8rem", minWidth: "7rem" }}
-            label="Day 3"
+            label="Dec 9"
             {...a11yProps(2)}
           />
           <Tab
             style={{ outline: "none", maxWidth: "8rem", minWidth: "7rem" }}
-            label="Day 4"
+            label="Dec 10"
             {...a11yProps(3)}
           />
         </Tabs>
