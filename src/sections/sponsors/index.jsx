@@ -40,7 +40,7 @@ import taskade from './assets/taskade.png';
 import strikingly from './assets/strikingly.png';
 import thecodingculture from './assets/thecodingculture.png';
 import women from './assets/women.PNG';
-
+import wolfram from './assets/wolfram.png';
 
 
 const Sponsors = () => {
@@ -240,6 +240,21 @@ const Sponsors = () => {
                         data-src={fold}
                         className="sponsor-img lazy"
                         alt="fold"
+                      ></img>
+                    </a>
+                  </div>
+
+                  <div className="col-md-4 sponsor-img-wrapper">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.wolfram.com/"
+                    >
+                      <img
+                        src="images/loader.gif"
+                        data-src={wolfram}
+                        className="sponsor-img lazy"
+                        alt="wolfram"
                       ></img>
                     </a>
                   </div>
