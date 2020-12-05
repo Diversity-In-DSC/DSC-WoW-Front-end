@@ -39,6 +39,9 @@ import egghead from './assets/egghead.png';
 import taskade from './assets/taskade.png';
 import strikingly from './assets/strikingly.png';
 import thecodingculture from './assets/thecodingculture.png';
+import women from './assets/women.PNG';
+
+
 
 const Sponsors = () => {
   return (
@@ -612,6 +615,24 @@ const Sponsors = () => {
             ></img>
           </a>
         </div>
+
+        <div className="col-md-4 sponsor-img-wrapper">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.meetup.com/Mysore-Women-in-Machine-Learning-and-Data-Science/"
+          >
+            <img
+              src="images/loader.gif"
+              data-src={women}
+              className="sponsor-img lazy"
+              alt="Mysore Women in Machine Learning and Data Science"
+              style={{padding: "0"}}
+            ></img>
+          </a>
+        </div>
+
+
         <div className="col-md-4 sponsor-img-wrapper">
           <a
             target="_blank"
