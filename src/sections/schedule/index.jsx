@@ -179,7 +179,7 @@ function ScrollableTabsButtonAuto() {
       {
         title: "Building your personal brand",
         time: "7:30 PM - 8:00 PM",
-        speaker: "Miri Rodriguez Hu",
+        speaker: "Miri Rodriguez",
         hero: "day2/5.png",
         link: "",
       },
