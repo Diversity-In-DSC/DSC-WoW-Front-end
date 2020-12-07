@@ -21,7 +21,8 @@ const EventCard = ({ title, link = "", time, speaker, image }) => {
         <div className="event__timings">{time}</div>
         <div className="event__speaker">{speaker}</div>
 
-        <Tooltip title="Stream link will be available a day before the event starts">
+        <a href={link} rel="noreferrer" target="_blank">
+          <Tooltip title={link === "" ? "Stream link will be available a day before the event starts" : "Let's WOW !"} >
           <Button
             variant="outlined"
             color="primary"
@@ -33,6 +34,7 @@ const EventCard = ({ title, link = "", time, speaker, image }) => {
             Watch Now
           </Button>
         </Tooltip>
+        </a>
       </div>
     </div>
   );

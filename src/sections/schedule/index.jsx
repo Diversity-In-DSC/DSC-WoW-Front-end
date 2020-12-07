@@ -116,35 +116,35 @@ function ScrollableTabsButtonAuto() {
         time: "5:00 PM - 5:30 PM",
         speaker: "Siddhant, Erica",
         hero: "day1/1.png",
-        link: "",
+        link: "https://bit.ly/dscwowday1",
       },
       {
         title: "Your first ML Project",
         time: "5:30 PM - 6:30 PM",
         speaker: "Sayak Paul",
         hero: "day1/3.png",
-        link: "",
+        link: "https://bit.ly/dscwowday1",
       },
       {
         title: "Quiz Time!",
         time: "6:30 PM - 6:45 PM",
         speaker: "",
         hero: "day1/4.jpg",
-        link: "",
+        link: "https://bit.ly/dscwowday1",
       },
       {
         title: "Lightning Talk",
         time: "6:45 PM - 7:25 PM",
         speaker: "Usha Rengaraju",
         hero: "day1/5.jpg",
-        link: "",
+        link: "https://bit.ly/dscwowday1",
       },
       {
         title: "Panel Discussion",
         time: "7:30 PM - 8:00 PM",
         speaker: "Rachel Hu",
         hero: "day1/6.png",
-        link: "",
+        link: "https://bit.ly/dscwowday1",
       },
     ],
     [
@@ -179,7 +179,7 @@ function ScrollableTabsButtonAuto() {
       {
         title: "Building your personal brand",
         time: "7:30 PM - 8:00 PM",
-        speaker: "Miri Rodriguez",
+        speaker: "Miri Rodriguez Hu",
         hero: "day2/5.png",
         link: "",
       },
@@ -261,22 +261,22 @@ function ScrollableTabsButtonAuto() {
         >
           <Tab
             style={{ outline: "none", maxWidth: "8rem", minWidth: "7rem" }}
-            label="Dec 7"
+            label="Day 1"
             {...a11yProps(0)}
           />
           <Tab
             style={{ outline: "none", maxWidth: "8rem", minWidth: "7rem" }}
-            label="Dec 8"
+            label="Day 2"
             {...a11yProps(1)}
           />
           <Tab
             style={{ outline: "none", maxWidth: "8rem", minWidth: "7rem" }}
-            label="Dec 9"
+            label="Day 3"
             {...a11yProps(2)}
           />
           <Tab
             style={{ outline: "none", maxWidth: "8rem", minWidth: "7rem" }}
-            label="Dec 10"
+            label="Day 4"
             {...a11yProps(3)}
           />
         </Tabs>
@@ -294,6 +294,7 @@ function ScrollableTabsButtonAuto() {
                   return (
                     <EventCard
                       title={event.title}
+                      link={event.link}
                       image={event.hero}
                       time={event.time}
                       speaker={event.speaker}
