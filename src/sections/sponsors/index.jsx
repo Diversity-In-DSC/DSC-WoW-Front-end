@@ -243,7 +243,20 @@ const Sponsors = () => {
                       ></img>
                     </a>
                   </div>
-
+<div className="col-md-4 sponsor-img-wrapper">
+               <a
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 href="https://www.appstone.in/"
+               >
+                 <img
+                   src="images/loader.gif"
+                   data-src={appstone}
+                   className="sponsor-img lazy"
+                   alt="zulip"
+                 ></img>
+               </a>
+             </div>
                   <div className="col-md-4 sponsor-img-wrapper">
                     <a
                       target="_blank"
@@ -424,20 +437,7 @@ const Sponsors = () => {
              </div>
 
 
-             <div className="col-md-4 sponsor-img-wrapper">
-               <a
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 href="https://www.appstone.in/"
-               >
-                 <img
-                   src="images/loader.gif"
-                   data-src={appstone}
-                   className="sponsor-img lazy"
-                   alt="zulip"
-                 ></img>
-               </a>
-             </div>
+             
 
 
              <div className="col-md-4 sponsor-img-wrapper">
