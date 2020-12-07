@@ -604,7 +604,7 @@ const Sponsors = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://flutterchandigarh.github.io/#/"
+            href="https://flutter-chandigarh.web.app/#/"
           >
             <img
               src="images/loader.gif"
