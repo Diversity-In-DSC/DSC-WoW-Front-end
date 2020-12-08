@@ -92,10 +92,10 @@ const speakersData = [
   {
     name: "Sanskar Tiwari",
     image: "images/speakers/sanskar.jpg",
-    description: "SDE at PuStack | Educator at Youtube Blog at flutternerd.com",
+    description: "Github Campus Expert | Educator at Youtube | Blog at flutternerd.com",
     linkedin: "https://www.linkedin.com/in/lamsanskar/",
     twitter: "https://twitter.com/Theindianappguy",
-    title: "Flutter Developer",
+    title: "Software Engineer",
   },
   {
     name: "Pranay Chauhan",
